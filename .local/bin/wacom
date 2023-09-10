@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# adjusting tablet aspect ratio
+# where height is tablet_width * screen_height / screen_width
+#xsetwacom get "Wacom Intuos3 9x12 Pen stylus" Area
+
+xsetwacom set "Wacom Intuos3 9x12 Pen stylus" Area 0 0 60960 36945 

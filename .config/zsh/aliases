@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# define aliases.
+#alias tree='tree -a -I .git'
+
+# add flags to existing aliases.
+alias ls="${aliases[ls]:-ls} -A --group-directories-first"
+
+alias ncdu="ncdu --color dark"
+# alias lf="lfub"
+alias nv="nvim"
+alias vim="nvim"
+alias tlf='tmux split -h lf; lf'
+# alias tmux='tmux -u'
+#alias cfg='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+#power
+alias halt="sudo halt"
+alias poweroff="sudo poweroff"
+alias reboot="sudo reboot"
+alias shutdown="sudo shutdown"
+alias zzz="sudo zzz"

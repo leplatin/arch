@@ -1,0 +1,39 @@
+2023-09-07 13:45:03.945 [info] Telemetry level is off
+2023-09-07 13:45:03.945 [info] Experiments are disabled, only manually opted experiments are active.
+2023-09-07 13:45:03.945 [info] Test server listening.
+2023-09-07 13:45:03.945 [info] > conda info --json
+2023-09-07 13:45:03.946 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-07 13:45:03.947 [info] Found: /bin/python --> /bin/python3.11
+2023-09-07 13:45:03.948 [info] Found: /bin/python3 --> /bin/python3.11
+2023-09-07 13:45:03.948 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-09-07 13:45:03.948 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-07 13:45:03.948 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-07 13:45:03.948 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-07 13:45:03.950 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-09-07 13:45:03.950 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-09-07 13:45:03.971 [info] Found: /sbin/python --> /sbin/python3.11
+2023-09-07 13:45:03.971 [info] Found: /sbin/python3 --> /sbin/python3.11
+2023-09-07 13:45:03.971 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2023-09-07 13:45:03.977 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2023-09-07 13:45:03.977 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-09-07 13:45:03.977 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-09-07 13:45:03.997 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2023-09-07 13:45:03.998 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2023-09-07 13:45:03.998 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2023-09-07 13:45:04.016 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-07 13:45:04.033 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-07 13:45:04.053 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-07 13:45:04.070 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/interpreterInfo.py
+2023-09-07 13:45:04.112 [info] Python interpreter path: /bin/python
+2023-09-07 13:45:04.973 [info] Starting Jedi language server for default.
+2023-09-07 13:46:07.429 [info] > /bin/python -m autopep8 --diff ~/Soft/TEMP/test.py.4aa7040ec82fab9827fd21ac679bd55c.tmp
+2023-09-07 13:46:07.429 [info] cwd: ~/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/out/client
+2023-09-07 13:46:07.457 [info] > /bin/python -c "import autopep8"
+2023-09-07 13:46:07.515 [info] > /bin/python -c "import autopep8"
+2023-09-07 13:46:07.527 [error] 
+Please install 'autopep8' into your environment. 
+If you don't want to use it you can turn it off or use another formatter in the settings.
+2023-09-07 13:46:07.527 [error] Formatting with autopep8 failed:
+Error: Module 'autopep8' not installed.
+2023-09-07 13:46:21.261 [info] DAP Server launched with command: /bin/python /home/mnkey/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/lib/python/debugpy/adapter
+2023-09-07 13:46:23.564 [info] Send text to terminal:  /usr/bin/env /bin/python /home/mnkey/.vscode-oss/extensions/ms-python.python-2023.14.0-universal/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 47961 -- /home/mnkey/Soft/TEMP/test.py 

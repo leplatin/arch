@@ -1,0 +1,275 @@
+# "query:Unread Articles:unread = \"yes\""
+"query:Blog Posts:tags # \"blog\""
+"query:Videos:tags # \"video\""
+
+# Blogs
+#https://lukesmith.xyz/rss.xml blog
+#https://tynan.com/feed/ blog
+#https://opensourcemusings.com/feed/ blog
+
+# YouTube tech
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg video tech # Wolfgang's Channel
+https://www.youtube.com/feeds/videos.xml?channel_id=UC5KDiSAFxrDWhmysBcNqtMA video tech # Eric Murphy
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA video tech # Mental Outlaw
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA video tech # Luke Smith
+https://www.youtube.com/feeds/videos.xml?channel_id=UC5UAwBUum7CPN5buc-_N1Fw video tech # The Linux Experiment
+https://www.youtube.com/feeds/videos.xml?channel_id=UCS97tchJDq17Qms3cux8wcA video tech # chris@machine
+https://www.youtube.com/feeds/videos.xml?channel_id=UCi8XrDg1bK_MJ0goOnbpTMQ video tech # budlabs
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBE-FO9JUOghSysV9gjTeHw video tech # NixieDoesLinux
+#https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA video tech # Brodie Robertson
+#https://www.youtube.com/feeds/videos.xml?channel_id=UCjr2bPAyPV7t35MvcgT3W8Q video tech # The Hated One
+
+# YouTube art
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHupLsLZF7tlrBLRKPWqXrw video art # Our Painted Lives
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTIoOLzT1jbxAcPW99xn0zQ video art # James Gurney
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUQTqWAaSzhAKRanOpes1nA video art # Sinix Design
+https://www.youtube.com/feeds/videos.xml?channel_id=UCgPj2jSpcJaN6C5xMi8ohfg video art # S. Michael Hampton
+https://www.youtube.com/feeds/videos.xml?channel_id=UCI8GDFj5BQCQrSHITFebzkA video art # moderndayjames
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsDxB-CSMQ0Vu_hTag7-2UQ video art # Marco Bucci
+https://www.youtube.com/feeds/videos.xml?channel_id=UCDyqxplQ3PQcCJhEW-GLgXg video art # Ahmed Aldoori
+https://www.youtube.com/feeds/videos.xml?channel_id=UCm9pCim4dDN4KJZUILGizgA video art # Tyler Edlin
+https://www.youtube.com/feeds/videos.xml?channel_id=UCcOkXkxDMWAOGf72H9oUdWw video art # Bradwynn Jones
+https://www.youtube.com/feeds/videos.xml?channel_id=UClM2LuQ1q5WEc23462tQzBg video art # Proko
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoBapgfK_m6G7airg1rdn8w video art # Alphonso Dunn
+https://www.youtube.com/feeds/videos.xml?channel_id=UC90UpMOnWwp5c80f_9so1IQ video art # Александр Рыжкин
+https://www.youtube.com/feeds/videos.xml?channel_id=UCA0Z1SC49ydvTj5fcwqYwdA video art # Luca Boni
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAhhrBafIGeJ_t7R9ei0e3Q video art # Tsirin88
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFCH0kQCWs-U5kBMRuUTaEQ video art # Jordan Grimmer
+https://www.youtube.com/feeds/videos.xml?channel_id=UCGgpthBWDbFX2GSljMw-MdQ video art # BoroCG
+https://www.youtube.com/feeds/videos.xml?channel_id=UCC_J48PF1BcUV6fmCBo2HKQ video art # Paint Coach
+https://www.youtube.com/feeds/videos.xml?channel_id=UCDUJu_bQH68A4FXij5P_8MQ video art # CG Speak
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTv7W7wJvb3SgwZYDWIhrSg video art # Light Ponderings
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_syJoBoMjVi6AU5wJfhn3A video art # Ian Goldsmith - Colour Alchromy
+https://www.youtube.com/feeds/videos.xml?channel_id=UCiU1-5VronbfeScuABAJC4A video art # Swatches
+https://www.youtube.com/feeds/videos.xml?channel_id=UCNPLX1hfy3Q8zr4eKvmhLGQ video art # The Drawing Database-Northern Kentucky University
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWjLl5TDZqMZimHbHXk0Wpg video art # LearnFromMasters
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbdyjrrJAjDIACjCsjAGFAA video art # FZDSCHOOL
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoVQSxuSr-nSvXKf0gONFtg video art # mclelun
+https://www.youtube.com/feeds/videos.xml?channel_id=UCNXmOZGGPtqurNRZkRuD9lA video art # Vera Velichko
+https://www.youtube.com/feeds/videos.xml?channel_id=UCX13DEjSGwUrtMVz3bEgymg video art # АРТ ОБСТРЕЛ
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAZZ8kXStsAD_SJS9LWNdEQ video art # CroquisCafe
+
+# YouTube music
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOflO8hRRTriuD_4Ag8M5ng video music # Are Sounds Electrik?
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVm7tYTZONPLVujGX0rAJdw video music # IDLES
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbjFZTjyAveA2dOTCmkZ3ng video music # Sierra Ferrell
+https://www.youtube.com/feeds/videos.xml?channel_id=UClr7iqeI9-Qt--dksZXfkQw video music # The Devil Makes Three
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBNR9KrqaspXV1wH-DI6-Ig video music # Neck Shoulders
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1dkAekNrp0tIKZC81dSTSQ video music # Bridge City Sinners
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWEK3RhJB-BkdMZ9fiROVAQ video music # viagra boys
+https://www.youtube.com/feeds/videos.xml?channel_id=UCr7iv49zibCciRCzlFauotQ video music # Amyl and The Sniffers
+https://www.youtube.com/feeds/videos.xml?channel_id=UCjvO9OjMSsaZxVKhMwVCpiQ video music # Western AF
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTvCk6kkHzvD-4JtldD_YTA video music # Михаил Елизаров
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1PM7A-OCX_r7IjMRDN70tg video music # ЗАПАД-81
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8GxVqausy6-ITH8nAh_Ibw video music # GewaltBand
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWSB6XU9A5ArDU0p7pkRTeg video music # THE DEVILS
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrgUOVlr7zh8q9VF6PRGKXA video music # Solomon Death
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTamyApK8hZS4lRrC0CdtEg video music # Rachel Brooke
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRVak3F9aY_MS01VGb4NORg video music # RudieSounds
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRexqVJLfIkKpCQjO8nc2rg video music # Ghost Behind You
+https://www.youtube.com/feeds/videos.xml?channel_id=UCnBDpW5TmwvOYqi24iHxlpg video music # Ragnar Lido
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrwdiY8l1MiOjroCYqr8V8Q video music # Steffen Appelquist
+
+# YouTube cinema
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuPivVjnfNo4mb3Oog_frZg video movies # A24
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUyvQV2JsICeLZP4c_h40kA video movies # Thomas Flight
+https://www.youtube.com/feeds/videos.xml?channel_id=UCL5kBJmBUVFLYBDiSiK1VDw video movies # The Cinema Cartography
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeZmbS6k-xrf8CjBZ9WxjNg video movies # ...and Action!
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7gBcKzHKc0oOR5-XiWdlFQ video movies # wolfcrow
+
+# YouTube culture
+https://www.youtube.com/feeds/videos.xml?channel_id=UCR6LasBpceuYUhuLToKBzvQ video culture # Solar Sands
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsK1oV0PGkcZ1UhFtajx0dg video culture # Redroom
+https://www.youtube.com/feeds/videos.xml?channel_id=UCxhlaRxHLKYr3GxFYEpic-Q video culture # Алексей Цветков
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsaAdkYABoKO8nK5rIPlDXQ video culture # PMTV Channel
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtQJxXLYUhdfkr8jgGfzdMA video culture # Metalyst
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfdgIq01iG92AXBt-NxgPkg video culture # later
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZ6_HfvuWjAdXnYocFsnlXw video culture # Wicker Mag
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTlfWMD2GUAuo_aE3H27ChA video culture # Оксана Мороз
+https://www.youtube.com/feeds/videos.xml?channel_id=UCmZTf9kzdx3KqYC7NZROknQ video culture # Ritartha
+
+
+# YouTube language 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCKMGLK-Inu1lReNdbeYBgOA video language # Virginia Bēowulf
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwk6ifONlkvqnoMF2uyA05g video language # Learn English with Papa Teach Me
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqapSFNEorolmRL0daYatjQ video language # Albert Kakhnovskiy
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoDe_IIpA8fI8ENpIWWOEdQ video language # ABAlphaBeta
+
+# YouTube 3D
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOWrbryuVEPUMSSgayuLURg video 3D # SouthernShotty
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSLLdTBwLMfTKWS56tOiQpw video 3D # Arrimus 3D
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWWybvw9jnpOdJq_6wTHryA video 3D # CG Boost
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSMOQeBJ2RAnuFungnQOxLg video 3D # Blender
+https://www.youtube.com/feeds/videos.xml?channel_id=UC10BuhxlV7Y53R0l9RJimmA video 3D # Danny Mac 3D
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbmxZRQk-X0p-TOxd6PEYJA video 3D # IanHubert
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2U5mRfclG1Rrr1ztNkpGKA video 3D # Royal Skies
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWiZI2dglzpaCYNnjcejS-Q video 3D # Michael Pavlovich
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0InhTEH5giQYPaTp69z-7g video 3D # 3dEx
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0JB7TSe49lg56u6qH8y_MQ video 3D # GDC
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1KDwEVBlxr4ew7xqLOhu9g video 3D # Arvid Schneider
+https://www.youtube.com/feeds/videos.xml?channel_id=UCz-eYJAUgSE-mqzKtit7m9g video 3D # Virtus Learning Hub
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHuzwCBMsExSsORBmDzhGYA video 3D # WorldofLevelDesign
+https://www.youtube.com/feeds/videos.xml?channel_id=UCKfTBvcsO9Kw0b5EVuf4CJQ video 3D # The DiNusty Empire
+https://www.youtube.com/feeds/videos.xml?channel_id=UCojEXrCBzO-cP2N5YlRcrWw video 3D # Daniel Krafft
+https://www.youtube.com/feeds/videos.xml?channel_id=UCqPKRjVm36xmxu1OiegTWWg video 3D # Matthew Palaje
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLbkGIcYJxxL0tciH9RVebg video 3D # Unreal Engine Rus
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOUWVGNhcHEICE8AjR8up3g video 3D # Darkfall
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOVfF7PfLbRdVEm0hONTrNQ video 3D # Mathew Wadstein
+https://www.youtube.com/feeds/videos.xml?channel_id=UCd9i2MKimSaKezat1xkn8-A video 3D # Lightning Boy Studio
+https://www.youtube.com/feeds/videos.xml?channel_id=UCf00zl7ecDwMyPj9MzgOWGQ video 3D # 51Daedalus
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSZMFHE56UDeEKNBan0HOCA video 3D # Workbench
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUq3Rn72jfQ-86CaCxj7XzA video 3D # Created Tech
+https://www.youtube.com/feeds/videos.xml?channel_id=UCivN0fI39D1wvN5eiq4MEdg video 3D # Get Learnt w/ Chunck
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw video 3D # 3Blue1Brown
+
+# YouTube animation and motion graphics
+https://www.youtube.com/feeds/videos.xml?channel_id=UCjJk212xU15y_NPYKuCsKQA video animation # Ben Marriott
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRTRqkhrehrY9hJJcLVUeRQ video animation # Toniko Pantoja
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAhdxqdrDN3gWJkaUFl9G-Q video animation # School of Motion
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-TbygL65GCTvKzmQC-a8Ng video animation # kdsketch
+https://www.youtube.com/feeds/videos.xml?channel_id=UC5DmsBrVi62DWBASLK5gMEw video animation # SonduckFilm
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9R4SdFaRvrkp60MZMzWK0Q video animation # AEPlug - Уроки After Effects
+https://www.youtube.com/feeds/videos.xml?channel_id=UCEM_SOPWDYu9LPuqY0J_O9w video animation # PolarBear Animation [PBA]
+https://www.youtube.com/feeds/videos.xml?channel_id=UCF5pdu3Z2Hk8bouDB_C3zFg video animation # ECAbrams
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLO0axHCWvbT2LV6wmUEu-g video animation # Motion Science
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSUSgx9qc_NydrOL59xbJIA video animation # Mt. Mograph
+https://www.youtube.com/feeds/videos.xml?channel_id=UCxQJspG2USvbhKlMcbNLofQ video animation # After Effects Tutorials w/ Mikey
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQyp3CBrBSfIynoDosN3c7g video animation # MOBOX Graphics
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWp2Kj8aD9XlCGiIZzwHciw video animation # Video Copilot
+
+# YouTube coding
+https://www.youtube.com/feeds/videos.xml?channel_id=UCo2JwjPSEc9U8ZJ_KQi6rDQ video coding # Борис Трушин
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-8QAzbLcRglXeN_MY9blyw video coding # Ben Awad
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSJbGtTlrDami-tDGPUV9-w video coding # Academind
+https://www.youtube.com/feeds/videos.xml?channel_id=UC29ju8bIPH5as8OGnQzwJyA video coding # Traversy Media
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ video coding # freeCodeCamp.org
+https://www.youtube.com/feeds/videos.xml?channel_id=UCX3w3jB05SHLbGjZPR0PM6g video coding # Senior Software Vlogger
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_mYaQAE6-71rjSN6CeCA-g video coding # NeetCode
+https://www.youtube.com/feeds/videos.xml?channel_id=UCv_UoYFFDToCFodr3Kz14eA video coding # Лёша Корепанов
+https://www.youtube.com/feeds/videos.xml?channel_id=UCP-xJwnvKCGyS-nbyOx1Wmg video coding # WebDev с нуля 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdldbhAwO16vjnDwACTs5gQ video coding # Archakov Blog
+https://www.youtube.com/feeds/videos.xml?channel_id=UCmJi5RdDLgzvkl3Ly0DRMlQ video coding # Paul Hudson
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuP2vJ6kRutQBfRmdcI92mA video coding # Lets Build That App
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbTw29mcP12YlTt1EpUaVJw video coding # Sean Allen
+https://www.youtube.com/feeds/videos.xml?channel_id=UCR0l-DhuoKVZKJXXccr-2FA video coding # CS Jackie
+https://www.youtube.com/feeds/videos.xml?channel_id=UCR0Hs-Bgz1SgGCq_0kbzjjg video coding # Joe - AUTOHOTKEY Guru
+
+# YouTube var
+https://www.youtube.com/feeds/videos.xml?channel_id=UCId9g4zlQ9BOn6fLKIt1Y0A video var # Rose Anvil
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUl1A-d2F11sHJ-MeTzCBaQ video var # Stridewise
+https://www.youtube.com/feeds/videos.xml?channel_id=UCPjoWhob1Mhi0MtOHCzMKZA video var # Brian The Bootmaker
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdqYirwMU7IhIH3sMMLgFyA video var # Деревенский блокнот
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJiHC1rXFYbEAfP2alCBJMg video var # NBK Tattoos
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLykZ-EbKa49hjKbOdCPBHg video var # Michael Carnivane
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8jiC5kJP20_ciPChad5cIw video var # S.M.
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHDB7coqbUC2igkL-I_SCtQ video var # KoolKlipsFromDeke
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOBFz0mX8lL5GSXfDkqu9_g video var # Wanderbraun
+https://www.youtube.com/feeds/videos.xml?channel_id=UCxByVUuLdxxiqQVmbOnDEzw video var # Erik Grankvist
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXqBBIQeeEuAAb80muky0Uw video var # Folk Survival
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeKEdVZu1tw50eEyfTBbAXw video var # Gareso
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6C3PX8hLzueaPWW9nmT85w video var # Bill McClintock
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7jUTQxNSAYilKjv_WRBSKw video var # FARAHANI EDIT
+
+# YouTube politics
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYDuWqDwzAFG4xrI5uJEWfw video politics # Рабкор
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4Cap1xVy2waDXfzM5ka6lg video politics # Простые числа
+https://www.youtube.com/feeds/videos.xml?channel_id=UCnqDsesb_BvX7kQZto7vTBw video politics # New Deal — Экономика и Дефициты
+https://www.youtube.com/feeds/videos.xml?channel_id=UCKRC-fNrU-XvZTrwXN4Xxcg video politics # Стратег Диванного Легиона
+https://www.youtube.com/feeds/videos.xml?channel_id=UCPPfK7Nq_yQR84rn1wcTXBg video politics # Anders Puck Nielsen
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHglZSvYRxW-SR6h6sGoCOQ video politics # Егор Потапенко
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6wCZzhjTt7-MpHAEqM27mQ video politics # Левацкие Хайлайты
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

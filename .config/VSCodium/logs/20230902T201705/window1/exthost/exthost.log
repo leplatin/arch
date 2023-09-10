@@ -1,0 +1,49 @@
+2023-09-02 20:17:09.676 [info] Extension host with pid 126308 started
+2023-09-02 20:17:09.729 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-02 20:17:09.776 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-09-02 20:17:09.805 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-09-02 20:17:09.863 [info] ExtensionService#_doActivateExtension redwan-hossain.auto-rename-tag-clone, startup: true, activationEvent: '*'
+2023-09-02 20:17:09.924 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-02 20:17:10.171 [info] Eager extensions activated
+2023-09-02 20:17:10.173 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:17:10.235 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:17:10.290 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:17:10.573 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:18:10.008 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-02 20:18:10.013 [info] Extension host with pid 126308 exiting with code 0
+2023-09-02 20:18:11.205 [info] Extension host with pid 126509 started
+2023-09-02 20:18:11.205 [info] Skipping acquiring lock for /home/mnkey/.config/VSCodium/User/workspaceStorage/8daf92a89d8d9cdc73559c63613280bb.
+2023-09-02 20:18:11.371 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-09-02 20:18:11.375 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-09-02 20:18:11.379 [info] ExtensionService#_doActivateExtension redwan-hossain.auto-rename-tag-clone, startup: true, activationEvent: '*'
+2023-09-02 20:18:11.459 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-02 20:18:11.596 [info] Eager extensions activated
+2023-09-02 20:18:11.598 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:18:11.600 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:18:11.604 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:18:11.633 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:18:13.817 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-09-02 20:18:13.915 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:18:14.373 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:18:15.619 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2023-09-02 20:18:15.675 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-02 20:18:22.264 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-02 20:18:22.296 [info] Extension host with pid 126509 exiting with code 0
+2023-09-02 20:18:23.123 [info] Extension host with pid 126578 started
+2023-09-02 20:18:23.123 [info] Skipping acquiring lock for /home/mnkey/.config/VSCodium/User/workspaceStorage/8daf92a89d8d9cdc73559c63613280bb.
+2023-09-02 20:18:23.344 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-02 20:18:23.350 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2023-09-02 20:18:23.747 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-02 20:18:23.749 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-09-02 20:18:23.753 [info] ExtensionService#_doActivateExtension redwan-hossain.auto-rename-tag-clone, startup: true, activationEvent: '*'
+2023-09-02 20:18:23.773 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-02 20:18:23.846 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-02 20:18:23.918 [info] Eager extensions activated
+2023-09-02 20:18:23.919 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:18:23.921 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:18:23.929 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:18:23.958 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:18:23.980 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:18:23.986 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-09-02 20:21:58.220 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-02 20:21:58.226 [info] Extension host with pid 126578 exiting with code 0

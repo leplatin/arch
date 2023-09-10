@@ -1,0 +1,16 @@
+# Lines starting with # are comments
+
+# Always extract audio
+#-x
+
+# Do not copy the mtime
+--no-mtime
+
+# Use this proxy
+#--proxy 127.0.0.1:3128
+
+# Prefer 1080p or lower resolutions
+-f bestvideo[ext=mp4][width<2000][height<=1200]+bestaudio[ext=m4a]/bestvideo[ext=webm][width<2000][height<=1200]+bestaudio[ext=webm]/bestvideo[width<2000][height<=1200]+bestaudio/best[width<2000][height<=1200]/best
+
+# Save all videos under YouTube directory in your home directory
+-o ~/Videos/youtube/%(title)s.%(ext)s

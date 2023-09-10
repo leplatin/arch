@@ -1,0 +1,6 @@
+2023-06-20 18:10:50.273 [info] update#setState idle
+2023-06-20 18:10:52.031 [info] Starting extension host with pid 286926 (fork() took 32 ms).
+2023-06-20 18:11:20.275 [info] update#setState checking for updates
+2023-06-20 18:11:20.374 [info] update#setState available for download
+2023-06-20 20:25:04.410 [info] Waiting for extension host with pid 286926 to exit.
+2023-06-20 20:25:04.432 [info] Extension host with pid 286926 exited with code: 0, signal: null.

@@ -1,0 +1,18 @@
+chip "applesmc-isa-0300"
+	label temp1 "Ambient"
+	label temp3 "CPU Heatsink"
+	label temp5 "GPU Dioode"
+	label temp6 "GPU Heatsink"
+	label temp7 "GPU Proximity"
+	label temp9 "HDD"
+	label temp11 "ODD"
+	label temp12 "WiFi"
+	label temp13 "Memory"
+	label temp14 "PSU"
+	
+chip "radeon-pci-0100"
+	label temp1 "RadeonPCI"
+
+chip "coretemp-isa-0000"
+	label temp2 "CPU Core 0"
+	label temp3 "CPU Core 1"

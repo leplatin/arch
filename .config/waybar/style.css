@@ -1,0 +1,224 @@
+@import 'frappe.css';
+
+* {
+  border: none;
+  border-radius: 0;
+  font-family: JetBrains Mono Nerd Font, monospace;
+  font-size: 12px;
+  font-weight: bold;
+  min-height: 0;
+  /* padding: 0px 0px; */
+  /* margin: 0px 0px; */
+}
+
+window#waybar {
+  background: alpha(@base, 0.85);
+  /* margin: 5px 5px; */
+  /* border-radius: 0.6rem; */
+  /* border: 2px solid @blue; */
+}
+
+tooltip {
+  background: alpha(@blue, 0.25);
+  /* border: 1px solid @overlay0; */
+  border-radius: 4px;
+}
+
+tooltip label {
+  color: @text;
+}
+
+#workspaces {
+  /* border-radius: 1rem; */
+  /* margin: 5px; */
+  /* background-color: alpha(@blue, 0.15); */
+  margin-left: 0.3rem;
+}
+
+#workspaces button {
+  color: @overlay0;
+  /* border-radius: 1rem; */
+  padding: 0.3rem;
+}
+
+#workspaces button.active {
+  color: @subtext0;
+}
+
+#workspaces button:hover {
+  color: @blue;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  transition: none;
+}
+
+#custom-music,
+#tray,
+#backlight,
+#battery,
+#custom-updates,
+#disk,
+#memory,
+#cpu,
+#temperature,
+#pulseaudio,
+#pulseaudio.microphone,
+#language,
+#network,
+#clock,
+#custom-lock,
+#custom-power {
+  /* background-color: alpha(@blue, 0.15); */
+  padding: 0rem 0.5rem 0rem;
+  /* margin: 3px 0px; */
+  /* border-radius: 1rem; */
+}
+
+#clock {
+  color: @subtext0;
+  /* border-radius: 0px 1rem 1rem 0px; */
+  margin-left: 1rem;
+}
+
+#battery {
+  color: @green;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @red;
+}
+
+#backlight {
+  color: @yellow;
+}
+
+#backlight,
+#battery {
+  /* border-radius: 0; */
+}
+#memory {
+  color: @subtext0;
+  /* border-radius: 1rem 0px 0px 1rem; */
+  margin-left: 1rem;
+}
+#cpu {
+  color: @subtext0;
+  /* border-radius: 1rem 0px 0px 1rem; */
+  margin-left: 1rem;
+}
+#temperature {
+  color: @subtext0;
+  /* border-radius: 1rem 0px 0px 1rem; */
+  margin-left: 1rem;
+}
+#disk {
+  color: @subtext0;
+  /* border-radius: 1rem 0px 0px 1rem; */
+  margin-left: 1rem;
+}
+
+#custom-updates {
+  color: @subtext0;
+  /* border-radius: 1rem 0px 0px 1rem; */
+  margin-left: 1rem;
+}
+
+#pulseaudio {
+  color: @subtext0;
+  /* border-radius: 1rem 0px 0px 1rem; */
+  margin-left: 1rem;
+}
+
+#pulseaudio.microphone {
+  color: @subtext0;
+  /* border-radius: 1rem 0px 0px 1rem; */
+  margin-left: 1rem;
+}
+#network {
+  color: @subtext0;
+  /* border-radius: 1rem 0px 0px 1rem; */
+  margin-left: 1rem;
+}
+
+#custom-music {
+  color: @subtext0;
+  /* border-radius: 1rem; */
+}
+
+#custom-lock {
+  /* border-radius: 1rem 0px 0px 1rem; */
+  color: @subtext0;
+  margin-left: 1rem;
+  /* margin-right: 0.3rem; */
+}
+
+#language {
+  color: @subtext0;
+  margin-left: 1rem;
+}
+
+#custom-power {
+  /* border-radius: 0px 1rem 1rem 0px; */
+  color: @subtext0;
+  margin-left: 1rem;
+  margin-right: 0.9rem;
+}
+
+#tray {
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+
+/* rosewater  	#dc8a78 	#F2D5CF 	#F4DBD6 	#F5E0DC 	Winbar */
+/* flamingo     #DD7878 	#EEBEBE 	#F0C6C6 	#F2CDCD 	Target word */
+/* pink 	      #ea76cb 	#F4B8E4 	#F5BDE6 	#F5C2E7 	Just pink */
+/* mauve 	      #8839EF 	#CA9EE6 	#C6A0F6 	#CBA6F7 	Tag */
+/* red 	        #D20F39 	#E78284 	#ED8796 	#F38BA8 	Error */
+/* maroon 	    #E64553 	#EA999C 	#EE99A0 	#EBA0AC 	Lighter red */
+/* peach 	      #FE640B 	#EF9F76 	#F5A97F 	#FAB387 	Number */
+/* yellow 	    #df8e1d 	#E5C890 	#EED49F 	#F9E2AF 	Warning */
+/* green 	      #40A02B 	#A6D189 	#A6DA95 	#A6E3A1 	Diff add */
+/* teal 	      #179299 	#81C8BE 	#8BD5CA 	#94E2D5 	Hint */
+/* sky 	        #04A5E5 	#99D1DB 	#91D7E3 	#89DCEB 	Operator */
+/* sapphire 	  #209FB5 	#85C1DC 	#7DC4E4 	#74C7EC 	Constructor */
+/* blue 	      #1e66f5 	#8CAAEE 	#8AADF4 	#89B4FA 	Diff changed */
+/* lavender 	  #7287FD 	#BABBF1 	#B7BDF8 	#B4BEFE 	CursorLine Nr */
+/* text 	      #4C4F69 	#c6d0f5 	#CAD3F5 	#CDD6F4 	Default fg */
+/* subtext1 	  #5C5F77 	#b5bfe2 	#B8C0E0 	#BAC2DE 	Indicator */
+/* subtext0 	  #6C6F85 	#a5adce 	#A5ADCB 	#A6ADC8 	Float title */
+/* overlay2 	  #7C7F93 	#949cbb 	#939AB7 	#9399B2 	Popup fg */
+/* overlay1 	  #8C8FA1 	#838ba7 	#8087A2 	#7F849C 	Conceal color */
+/* overlay0 	  #9CA0B0 	#737994 	#6E738D 	#6C7086 	Fold color */
+/* surface2 	  #ACB0BE 	#626880 	#5B6078 	#585B70 	Default comment */
+/* surface1 	  #BCC0CC 	#51576d 	#494D64 	#45475A 	Darker comment */
+/* surface0 	  #CCD0DA 	#414559 	#363A4F 	#313244 	Darkest comment */
+/* base 	      #EFF1F5 	#303446 	#24273A 	#1E1E2E 	Default bg */
+/* mantle 	    #E6E9EF 	#292C3C 	#1E2030 	#181825 	Darker bg */
+/* crust 	      #DCE0E8 	#232634 	#181926 	#11111B 	Darkest bg */
+
+/* 100% FF */
+/* 95% 	F2 */
+/* 90% 	E6 */
+/* 85% 	D9 */
+/* 80% 	CC */
+/* 75% 	BF */
+/* 70% 	B3 */
+/* 65% 	A6 */
+/* 60% 	99 */
+/* 55% 	8C */
+/* 50% 	80 */
+/* 45% 	73 */
+/* 40% 	66 */
+/* 35% 	59 */
+/* 30% 	4D */
+/* 25% 	40 */
+/* 20% 	33 */
+/* 15% 	26 */
+/* 10% 	1A */
+/* 5% 	0D */
+/* 0%   00 */

@@ -1,0 +1,120 @@
+import:
+ # - ~/.config/alacritty/catppuccin-macchiato.yml
+ - ~/.config/alacritty/catppuccin-frappe.yml
+ # - ~/.config/alacritty/catppuccin-mocha.yml
+ # - ~/.config/alacritty/catppuccin-latte.yml
+ # - ~/.config/alacritty/rose-pine-moon.yml
+ # - ~/.config/alacritty/rose-pine.yml
+ # - ~/.config/alacritty/nord.yml
+
+env:
+  TERM: xterm-256color
+  WINIT_X11_SCALE_FACTOR: "1.0"
+
+#Shell
+
+shell:
+   program: /usr/bin/zsh
+ 
+window:
+    decorations: none
+    opacity: 1.0
+    padding:
+        x: 10
+        y: 10
+#    position:
+#        x: 5
+#        y: 40
+    dimensions:
+        columns: 80
+        lines: 40
+
+scrolling:
+    history: 10000
+    multiplier: 3
+
+font:
+  normal:
+    family: "JetBrainsMono Nerd Font"
+    style: Regular
+  bold:
+    family: "JetBrainsMono Nerd Font"
+    style: Bold
+  italic:
+    family: "JetBrainsMono Nerd Font"
+    style: Italic
+  bold_italic:
+    family: "JetBrainsMono Nerd Font"
+    style: Bold Italic
+  size: 12.0
+draw_bold_text_with_bright_colors: true
+
+cursor:
+  # Values for 'style':
+  #   - ▇ Block
+  #   - _ Underline
+  #   - | Beam
+  style:
+    shape: Underline
+    blinking: On
+    thickness: 0.25
+    blink_interval: 750
+draw_bold_text_with_bright_colors: true    
+    #   - Never: Prevent the cursor from ever blinking
+    #   - Off: Disable blinking by default
+    #   - On: Enable blinking by default
+    #   - Always: Force the cursor to always blink
+
+key_bindings:
+   - { key: N, mods: Super,  action: SpawnNewInstance } # new alacritty instance
+   
+   - { key: Key1, mods: Alt, chars: "\x1b1" }
+   - { key: Key2, mods: Alt, chars: "\x1b2" }
+   - { key: Key3, mods: Alt, chars: "\x1b3" }
+   - { key: Key4, mods: Alt, chars: "\x1b4" }
+   - { key: Key5, mods: Alt, chars: "\x1b5" }
+   - { key: Key6, mods: Alt, chars: "\x1b6" }
+   - { key: Key7, mods: Alt, chars: "\x1b7" }
+   - { key: Key8, mods: Alt, chars: "\x1b8" }
+   - { key: Key9, mods: Alt, chars: "\x1b9" }
+   - { key: Key0, mods: Alt, chars: "\x1b0" }
+
+   - { key: H, mods: Control|Shift, chars: "\x1b[72;6u" }
+   - { key: J, mods: Control|Shift, chars: "\x1b[74;6u" }
+   - { key: K, mods: Control|Shift, chars: "\x1b[75;6u" }
+   - { key: L, mods: Control|Shift, chars: "\x1b[76;6u" }
+
+   - { key: I, mods: Control, chars: "\x1b[105;5u" }
+
+   - { key: J, mods: Alt, chars: "\x1b[106;3u" }
+   - { key: K, mods: Alt, chars: "\x1b[107;3u" }
+
+   - { key: Period, mods: Control, chars: "\x1b[46;5u" }
+   - { key: Comma, mods: Control, chars: "\x1b[44;5u" }
+   - { key: Semicolon, mods: Control, chars: "\x1b[59;5u" }
+
+   - { key: Return, mods: Shift, chars: "\x1b[13;2u" }
+   - { key: Slash, mods: Control, chars: "\x1f" }
+
+  # for tmux
+   - { key: Key0, mods: Super, chars: "\x01\x30" }        # toggle toolbar
+   - { key: T, mods: Super, chars: "\x01\x63" }           # new tab
+   - { key: Q, mods: Super, chars: "\x01\x78" }           # close tab
+   - { key: S, mods: Super, chars: "\x01\x5f" }           # split vertically
+   - { key: S, mods: Super|Alt, chars: "\x01\x2d" }       # split horizontally
+   - { key: H, mods: Super, chars: "\x01\x68" }           # select left
+   - { key: J, mods: Super, chars: "\x01\x6a" }           # select down
+   - { key: K, mods: Super, chars: "\x01\x6b" }           # select up
+   - { key: L, mods: Super, chars: "\x01\x6c" }           # select right
+   - { key: H, mods: Super|Alt, chars: "\x01\x48" }       # resize left
+   - { key: J, mods: Super|Alt, chars: "\x01\x4a" }       # resize down
+   - { key: K, mods: Super|Alt, chars: "\x01\x4b" }       # resize up
+   - { key: L, mods: Super|Alt, chars: "\x01\x4c" }       # resize right
+   - { key: Period, mods: Super, chars: "\x01\x3e" }      # swap panels >
+   - { key: Comma, mods: Super, chars: "\x01\x3c" }       # swap panels <
+   - { key: RBracket, mods: Super, chars: "\x01\x0c" }    # next tab
+   - { key: LBracket, mods: Super, chars: "\x01\x08" }    # previous tab
+
+   - { key: Key0, mods: Control|Alt, chars: "\x20\x73\x30"} # set statusline off
+   - { key: Key3, mods: Control|Alt, chars: "\x20\x73\x33"} # set statusline global
+   - { key: Key2, mods: Control|Alt, chars: "\x20\x73\x32"} # set statusline default

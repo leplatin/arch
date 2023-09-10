@@ -1,0 +1,85 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "indentRainbow.includedLanguages": ["json", "html", "lua"],
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  //Theme
+  "workbench.colorTheme": "Catppuccin Macchiato",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "react",
+  "workbench.startupEditor": "newUntitledFile",
+  //Updates
+  "update.showReleaseNotes": false,
+  "workbench.enableExperiments": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.renderLineHighlight": "all",
+  "editor.padding.bottom": 5,
+  "editor.padding.top": 5,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.renderWhitespace": "none",
+  "editor.matchBrackets": "never",
+  "editor.foldingHighlight": false,
+  "editor.minimap.enabled": false,
+  "editor.snippetSuggestions": "top",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.wordWrap": "on",
+  "editor.lightbulb.enabled": false,
+  "editor.cursorBlinking": "smooth",
+  "breadcrumbs.enabled": false,
+  "editor.hover.enabled": true,
+  //Explorer
+  "window.zoomLevel": 0,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  //Sync
+  "sync.removeExtensions": false,
+  "sync.gist": "dad60f4f217a28bd253c35166082a095",
+  //Liveserver
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.wait": 300,
+  "liveServer.settings.donotVerifyTags": true,
+  //Prettier
+  "prettier.singleQuote": true,
+  "prettier.bracketSameLine": true,
+  "prettier.useTabs": false,
+  "prettier.tabWidth": 2,
+  "prettier.alignObjectProperties": true,
+  //Coderunner
+  "code-runner.enableAppInsights": false,
+  "code-runner.showRunCommandInExplorerContextMenu": false,
+  "code-runner.showRunCommandInEditorContextMenu": false,
+  "code-runner.showExecutionMessage": false,
+  "emmet.showSuggestionsAsSnippets": true,
+  //BracketPairColorizer
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  //Color-highlight
+  "color-highlight.markerType": "dot-before",
+  "color-highlight.markRuler": false,
+  "color-highlight.languages": ["!css", "javascript"],
+  "prettier.printWidth": 120,
+  "security.workspace.trust.untrustedFiles": "open",
+  "indentRainbow.excludedLanguages": ["plaintext"],
+  "editor.guides.indentation": false,
+  "indentRainbow.indicatorStyle": "light",
+  "editor.guides.bracketPairs": true,
+  "workbench.preferredDarkColorTheme": "Nord",
+  "workbench.activityBar.visible": false
+}

@@ -1,0 +1,96 @@
+/*******************************************************************************
+ * MACOS SPOTLIGHT LIKE DARK THEME FOR ROFI
+ * User                 : LR-Tech
+ * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ *******************************************************************************/
+
+* {
+    font:                 "JetBrains Mono Bold 12";
+    bg0:                  #292C3CF2; //background
+    bg1:                  #292C3CF2;
+    bg2:                  #8CAAEEF2; //cursor
+    bg3:                  #414559F2; //top panel
+    fg0:                  #c6d0f5;  //text
+    fg1:                  #303446;  //text under cursor
+    fg2:                  #E78284;
+    background-color:     transparent;
+    text-color:           @fg0;
+    margin:               0;
+    padding:              0;
+    spacing:              0;
+}
+
+window {
+    background-color:     @bg0;
+    border-color:         @bg2;
+    border-radius:        2px;
+    location:             center;
+    width:                640;
+}
+
+inputbar {
+    font:                 "JetBrains Mono Bold 12";
+    padding:              12px;
+    spacing:              12px;
+    background-color:     @bg0;
+}
+
+icon-search {
+    expand:               false;
+    filename:             "search";
+    size: 8px;
+}
+
+icon-search, entry, element-icon, element-text {
+    vertical-align:       0.5;
+}
+
+entry {
+    font:                 inherit;
+
+    placeholder:          "";
+    placeholder-color:    @fg2;
+}
+
+message {
+    border:               2px 0 0;
+    border-color:         @bg1;
+    background-color:     @bg1;
+}
+
+textbox {
+    padding:              8px 24px;
+}
+
+listview {
+    lines:                10;
+    columns:              1;
+
+    fixed-height:         false;
+    border:               1px 0 0;
+    border-color:         @bg1;
+}
+
+element {
+    padding:              8px 16px;
+    spacing:              16px;
+    background-color:     transparent;
+}
+
+element normal active {
+    text-color:           @bg2;
+    padding:              8px 16px;
+}
+
+element selected normal,  element selected active {
+    background-color:     @bg2;
+    text-color:           @fg1;
+}
+
+element-icon {
+    size:                 1em;
+}
+
+element-text {
+    text-color:           inherit;
+}

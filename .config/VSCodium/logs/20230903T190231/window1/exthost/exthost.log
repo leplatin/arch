@@ -1,0 +1,12 @@
+2023-09-03 19:02:33.081 [info] Extension host with pid 254218 started
+2023-09-03 19:02:33.128 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-09-03 19:02:33.132 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-09-03 19:02:33.136 [info] ExtensionService#_doActivateExtension redwan-hossain.auto-rename-tag-clone, startup: true, activationEvent: '*'
+2023-09-03 19:02:33.171 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-03 19:02:33.307 [info] Eager extensions activated
+2023-09-03 19:02:33.325 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-03 19:02:33.326 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-03 19:02:33.332 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-09-03 19:02:33.360 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-09-03 19:02:42.135 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-03 19:02:42.138 [info] Extension host with pid 254218 exiting with code 0

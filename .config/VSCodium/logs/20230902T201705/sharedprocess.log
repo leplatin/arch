@@ -1,0 +1,32 @@
+2023-09-02 20:17:12.634 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2023-09-02 20:17:12.641 [info] Getting Manifest... ms-python.python
+2023-09-02 20:17:12.643 [info] Getting Manifest... mvllow.rose-pine
+2023-09-02 20:17:12.646 [info] Getting Manifest... pkief.material-icon-theme
+2023-09-02 20:17:14.383 [info] Installing extension: catppuccin.catppuccin-vsc
+2023-09-02 20:17:14.416 [info] Installing extension: mvllow.rose-pine
+2023-09-02 20:17:14.428 [info] Installing extension: pkief.material-icon-theme
+2023-09-02 20:17:14.537 [info] Installing extension: ms-python.python
+2023-09-02 20:17:16.178 [info] Extension signature verification is not done: mvllow.rose-pine
+2023-09-02 20:17:16.283 [info] Extracted extension to file:///home/mnkey/.vscode-oss/extensions/mvllow.rose-pine-2.9.0-universal: mvllow.rose-pine
+2023-09-02 20:17:16.349 [info] Renamed to /home/mnkey/.vscode-oss/extensions/mvllow.rose-pine-2.9.0-universal
+2023-09-02 20:17:16.359 [info] Extracting extension completed. mvllow.rose-pine
+2023-09-02 20:17:16.395 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc
+2023-09-02 20:17:16.440 [info] Extracted extension to file:///home/mnkey/.vscode-oss/extensions/catppuccin.catppuccin-vsc-2.9.0-universal: catppuccin.catppuccin-vsc
+2023-09-02 20:17:16.499 [info] Extension installed successfully: mvllow.rose-pine
+2023-09-02 20:17:16.517 [info] Marked extension as uninstalled mvllow.rose-pine-2.8.1-universal
+2023-09-02 20:17:16.562 [info] Renamed to /home/mnkey/.vscode-oss/extensions/catppuccin.catppuccin-vsc-2.9.0-universal
+2023-09-02 20:17:16.566 [info] Extracting extension completed. catppuccin.catppuccin-vsc
+2023-09-02 20:17:16.617 [info] Extension signature verification is not done: pkief.material-icon-theme
+2023-09-02 20:17:16.655 [info] Extension installed successfully: catppuccin.catppuccin-vsc
+2023-09-02 20:17:16.669 [info] Marked extension as uninstalled catppuccin.catppuccin-vsc-2.7.0-universal
+2023-09-02 20:17:17.220 [info] Extracted extension to file:///home/mnkey/.vscode-oss/extensions/pkief.material-icon-theme-4.30.1-universal: pkief.material-icon-theme
+2023-09-02 20:17:17.279 [info] Renamed to /home/mnkey/.vscode-oss/extensions/pkief.material-icon-theme-4.30.1-universal
+2023-09-02 20:17:17.280 [info] Extracting extension completed. pkief.material-icon-theme
+2023-09-02 20:17:17.336 [info] Extension installed successfully: pkief.material-icon-theme
+2023-09-02 20:17:17.342 [info] Marked extension as uninstalled pkief.material-icon-theme-4.28.0-universal
+2023-09-02 20:17:28.357 [info] Extension signature verification is not done: ms-python.python
+2023-09-02 20:17:29.926 [info] Extracted extension to file:///home/mnkey/.vscode-oss/extensions/ms-python.python-2023.14.0-universal: ms-python.python
+2023-09-02 20:17:30.030 [info] Renamed to /home/mnkey/.vscode-oss/extensions/ms-python.python-2023.14.0-universal
+2023-09-02 20:17:30.039 [info] Extracting extension completed. ms-python.python
+2023-09-02 20:17:30.100 [info] Extension installed successfully: ms-python.python
+2023-09-02 20:17:30.110 [info] Marked extension as uninstalled ms-python.python-2023.12.0-universal

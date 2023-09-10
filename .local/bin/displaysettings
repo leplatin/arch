@@ -1,0 +1,10 @@
+#! /bin/sh
+
+# monitor profile
+#/usr/bin/xcalib -d :0 ~/.local/share/icc/iMac-96293C70-D302-0CE8-525B-75AB1EA2C600.icc &
+
+# brightness
+#/usr/bin/light -S 1 
+
+# gamma correction
+exec /bin/xgamma -rgamma 0.85 -ggamma 0.8 -bgamma 0.9 

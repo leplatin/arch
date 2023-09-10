@@ -1,0 +1,484 @@
+[
+    {
+        "Job": {
+            "Audio": {
+                "AudioList": [
+                    {
+                        "Bitrate": 160,
+                        "CompressionLevel": -1.0,
+                        "DRC": 0.0,
+                        "DitherMethod": "auto",
+                        "Encoder": "copy:aac",
+                        "Gain": 0.0,
+                        "Mixdown": "none",
+                        "NormalizeMixLevel": false,
+                        "PresetEncoder": "av_aac",
+                        "Quality": -3.0,
+                        "Samplerate": 0,
+                        "Track": 0
+                    }
+                ],
+                "CopyMask": [
+                    "copy:aac"
+                ],
+                "FallbackEncoder": "av_aac"
+            },
+            "Destination": {
+                "AlignAVStart": true,
+                "ChapterList": [
+                    {
+                        "Duration": {
+                            "Hours": 2,
+                            "Minutes": 59,
+                            "Seconds": 9,
+                            "Ticks": 967416750
+                        },
+                        "Name": ""
+                    }
+                ],
+                "ChapterMarkers": false,
+                "File": "/home/mnkey/Downloads/.torrents/01 - Кодирование информации Задание 4, 11.mp4",
+                "InlineParameterSets": false,
+                "Mp4Options": {
+                    "IpodAtom": false,
+                    "Mp4Optimize": false
+                },
+                "Mux": "m4v"
+            },
+            "Filters": {
+                "FilterList": [
+                    {
+                        "ID": 3,
+                        "Settings": {
+                            "block-height": "16",
+                            "block-thresh": "40",
+                            "block-width": "16",
+                            "filter-mode": "2",
+                            "mode": "3",
+                            "motion-thresh": "1",
+                            "spatial-metric": "2",
+                            "spatial-thresh": "1"
+                        }
+                    },
+                    {
+                        "ID": 4,
+                        "Settings": {
+                            "mode": "7"
+                        }
+                    },
+                    {
+                        "ID": 7,
+                        "Settings": {
+                            "mode": 2,
+                            "rate": "27000000/900000"
+                        }
+                    },
+                    {
+                        "ID": 14,
+                        "Settings": {
+                            "crop-bottom": 0,
+                            "crop-left": 0,
+                            "crop-right": 0,
+                            "crop-top": 0,
+                            "height": 720,
+                            "width": 1280
+                        }
+                    }
+                ]
+            },
+            "Metadata": {
+                "Name": "01 - Кодирование информации Задание 4, 11"
+            },
+            "PAR": {
+                "Den": 1,
+                "Num": 1
+            },
+            "SequenceID": 0,
+            "Source": {
+                "Angle": 0,
+                "Path": "/home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4",
+                "Range": {
+                    "End": 1,
+                    "Start": 1,
+                    "Type": "chapter"
+                },
+                "Title": 1
+            },
+            "Subtitle": {
+                "Search": {
+                    "Burn": true,
+                    "Default": false,
+                    "Enable": false,
+                    "Forced": false
+                },
+                "SubtitleList": []
+            },
+            "Video": {
+                "ChromaLocation": 0,
+                "ColorInputFormat": 0,
+                "ColorMatrix": 1,
+                "ColorOutputFormat": 0,
+                "ColorPrimaries": 1,
+                "ColorRange": 1,
+                "ColorTransfer": 1,
+                "Encoder": "x264",
+                "HardwareDecode": 0,
+                "Level": "3.1",
+                "Options": "",
+                "Preset": "fast",
+                "Profile": "main",
+                "QSV": {
+                    "AdapterIndex": 0,
+                    "AsyncDepth": 0,
+                    "Decode": false
+                },
+                "Quality": 21.0,
+                "Tune": "",
+                "Turbo": false,
+                "TwoPass": false
+            }
+        },
+        "Title": {
+            "AngleCount": 1,
+            "AudioList": [
+                {
+                    "Attributes": {
+                        "AltCommentary": false,
+                        "Commentary": false,
+                        "Default": true,
+                        "Normal": false,
+                        "Secondary": false,
+                        "VisuallyImpaired": false
+                    },
+                    "BitRate": 127999,
+                    "ChannelCount": 2,
+                    "ChannelLayout": 3,
+                    "ChannelLayoutName": "stereo",
+                    "Codec": 65536,
+                    "CodecName": "aac",
+                    "CodecParam": 86018,
+                    "Description": "English (AAC LC) (2.0 ch) (127 kbps)",
+                    "LFECount": 0,
+                    "Language": "English",
+                    "LanguageCode": "eng",
+                    "SampleRate": 44100,
+                    "TrackNumber": 1
+                }
+            ],
+            "ChapterList": [
+                {
+                    "Duration": {
+                        "Hours": 2,
+                        "Minutes": 59,
+                        "Seconds": 9,
+                        "Ticks": 967416750
+                    },
+                    "Name": ""
+                }
+            ],
+            "Color": {
+                "ChromaLocation": 0,
+                "Format": 0,
+                "Matrix": 1,
+                "Primary": 1,
+                "Range": 1,
+                "Transfer": 1
+            },
+            "Container": "mov,mp4,m4a,3gp,3g2,mj2",
+            "Crop": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "Duration": {
+                "Hours": 2,
+                "Minutes": 59,
+                "Seconds": 9,
+                "Ticks": 967416750
+            },
+            "FrameRate": {
+                "Den": 450000,
+                "Num": 27000000
+            },
+            "Geometry": {
+                "Height": 1080,
+                "PAR": {
+                    "Den": 1,
+                    "Num": 1
+                },
+                "Width": 1920
+            },
+            "Index": 1,
+            "InterlaceDetected": true,
+            "LooseCrop": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "Metadata": {},
+            "Name": "01 - Кодирование информации Задание 4, 11",
+            "Path": "/home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4",
+            "Playlist": -1,
+            "SubtitleList": [],
+            "Type": 3,
+            "VideoCodec": "vp9"
+        },
+        "uiSettings": {
+            "ActivityFilename": "/home/mnkey/Downloads/.torrents/01 - Кодирование информации Задание 4, 11 2023-08-16 10-14-13.log",
+            "AlignAVStart": true,
+            "AudioAllowAACPass": true,
+            "AudioAllowAC3Pass": false,
+            "AudioAllowDTSHDPass": false,
+            "AudioAllowDTSPass": false,
+            "AudioAllowEAC3Pass": false,
+            "AudioAllowFLACPass": false,
+            "AudioAllowMP2Pass": false,
+            "AudioAllowMP3Pass": false,
+            "AudioAllowOPUSPass": false,
+            "AudioAllowTRUEHDPass": false,
+            "AudioBitrate": "160",
+            "AudioCopyMask": [
+                "copy:aac"
+            ],
+            "AudioEncoder": "copy:aac",
+            "AudioEncoderFallback": "av_aac",
+            "AudioLanguageList": [],
+            "AudioList": [
+                {
+                    "AudioBitrate": 160,
+                    "AudioCompressionLevel": -1.0,
+                    "AudioDitherMethod": "auto",
+                    "AudioEncoder": "av_aac",
+                    "AudioMixdown": "stereo",
+                    "AudioNormalizeMixLevel": false,
+                    "AudioSamplerate": "auto",
+                    "AudioTrackDRCSlider": 0.0,
+                    "AudioTrackGainSlider": 0.0,
+                    "AudioTrackQuality": 1.0,
+                    "AudioTrackQualityEnable": false
+                }
+            ],
+            "AudioMixdown": "none",
+            "AudioSamplerate": "auto",
+            "AudioSecondaryEncoderMode": true,
+            "AudioTrack": "0",
+            "AudioTrackBitrateEnable": true,
+            "AudioTrackDRCSlider": 0.90000000000000002,
+            "AudioTrackDRCValue": "Off",
+            "AudioTrackGainSlider": 0.0,
+            "AudioTrackGainValue": "0dB",
+            "AudioTrackName": "",
+            "AudioTrackQuality": -1.0,
+            "AudioTrackQualityEnable": false,
+            "AudioTrackQualityValue": "-3",
+            "AudioTrackQualityX": -3.0,
+            "AudioTrackSelectionBehavior": "first",
+            "ChapterMarkers": true,
+            "ChildrenArray": [],
+            "Default": false,
+            "DisplayHeight": 720.0,
+            "FileFormat": "av_mp4",
+            "Folder": false,
+            "FolderOpen": false,
+            "ImportFile": null,
+            "ImportLanguage": "und",
+            "ImportOffset": 0.0,
+            "InlineParameterSets": false,
+            "MainWhenComplete": "nothing",
+            "MetaAlbumArtist": "",
+            "MetaArtist": "",
+            "MetaComment": "",
+            "MetaDescription": "",
+            "MetaGenre": "",
+            "MetaLongDescription": "",
+            "MetaName": "01 - Кодирование информации Задание 4, 11",
+            "MetaReleaseDate": "",
+            "MetadataPassthrough": true,
+            "Mp4HttpOptimize": false,
+            "Mp4iPodCompatible": false,
+            "PictureAllowUpscaling": false,
+            "PictureAutoCrop": true,
+            "PictureBottomCrop": 0.0,
+            "PictureChromaSmoothCustom": "",
+            "PictureChromaSmoothPreset": "off",
+            "PictureChromaSmoothTune": "none",
+            "PictureColorspaceCustom": "",
+            "PictureColorspacePreset": "off",
+            "PictureCombDetectCustom": "",
+            "PictureCombDetectPreset": "default",
+            "PictureCropMode": 0,
+            "PictureDARWidth": 1280.0,
+            "PictureDeblockCustom": "strength=strong:thresh=20:blocksize=8",
+            "PictureDeblockPreset": "off",
+            "PictureDeblockTune": "medium",
+            "PictureDeinterlaceCustom": "",
+            "PictureDeinterlaceDecomb": false,
+            "PictureDeinterlaceFilter": "decomb",
+            "PictureDeinterlacePreset": "default",
+            "PictureDenoiseCustom": "",
+            "PictureDenoiseFilter": "off",
+            "PictureDenoisePreset": "",
+            "PictureDenoiseTune": "none",
+            "PictureDetelecine": "off",
+            "PictureDetelecineCustom": "",
+            "PictureForceHeight": 0,
+            "PictureForceWidth": 0,
+            "PictureHeight": 720.0,
+            "PictureItuPAR": false,
+            "PictureKeepRatio": true,
+            "PictureLeftCrop": 0.0,
+            "PictureModulus": 2,
+            "PicturePAR": "auto",
+            "PicturePARHeight": 1.0,
+            "PicturePARWidth": 1.0,
+            "PicturePadBottom": 0.0,
+            "PicturePadColor": "black",
+            "PicturePadLeft": 0.0,
+            "PicturePadMode": "none",
+            "PicturePadRight": 0.0,
+            "PicturePadTop": 0.0,
+            "PictureRightCrop": 0.0,
+            "PictureRotate": "angle=0:hflip=0",
+            "PictureSharpenCustom": "",
+            "PictureSharpenFilter": "off",
+            "PictureSharpenPreset": "",
+            "PictureSharpenTune": "",
+            "PictureTopCrop": 0.0,
+            "PictureUseMaximumSize": true,
+            "PictureWidth": 1280.0,
+            "Preferences": {
+                "ActivityFontSize": 8.0,
+                "AddCC": false,
+                "AutoScan": false,
+                "CustomTmpDir": "/home/mnkey/.cache/handbrake",
+                "CustomTmpEnable": true,
+                "DiskFreeCheck": true,
+                "DiskFreeLimit": 2000.0,
+                "EncodeLogLocation": true,
+                "ExportDirectory": "/home/mnkey",
+                "LogLongevity": "immortal",
+                "LoggingLevel": "1",
+                "MinTitleDuration": 10.0,
+                "PreferredLanguage": "und",
+                "RemoveFinishedJobs": true,
+                "ShowMiniPreview": true,
+                "SrtDir": "/home/mnkey",
+                "SyncTitleSettings": true,
+                "UseM4v": false,
+                "VideoQualityGranularity": "1",
+                "WhenComplete": "nothing",
+                "allow_tweaks": false,
+                "auto_name": true,
+                "auto_name_template": "{source}",
+                "check_updates": "weekly",
+                "default_source": "/home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4",
+                "destination_dir": "/home/mnkey/Downloads/.torrents",
+                "hbfd": false,
+                "hbfd_feature": false,
+                "last_update_check": 0,
+                "live_duration": 15.0,
+                "preset_window_height": 1,
+                "preset_window_width": 1,
+                "presets_window_height": 600,
+                "presets_window_width": 300,
+                "preview_count": 10.0,
+                "preview_show_crop": false,
+                "preview_x": 1002,
+                "preview_y": 639,
+                "reduce_hd_preview": true,
+                "update_skip_version": 0,
+                "use_dvdnav": true,
+                "version": "0.1",
+                "window_height": 1155,
+                "window_width": 906
+            },
+            "PreferredLanguage": "und",
+            "PresetCategory": "new",
+            "PresetDescription": "H.264 video (up to 720p30) and AAC stereo audio, in an MP4 container.",
+            "PresetDisabled": false,
+            "PresetFullName": "/General/Fast 720p30",
+            "PresetName": "Fast 720p30",
+            "PtoPType": "chapter",
+            "QueueWhenComplete": "nothing",
+            "SrtCodeset": "ISO-8859-1",
+            "SubtitleAddCC": false,
+            "SubtitleAddForeignAudioSearch": true,
+            "SubtitleAddForeignAudioSubtitle": false,
+            "SubtitleBurnBDSub": true,
+            "SubtitleBurnBehavior": "foreign",
+            "SubtitleBurnDVDSub": true,
+            "SubtitleLanguageList": [],
+            "SubtitleTrackSelectionBehavior": "none",
+            "Type": 0,
+            "UsesPictureFilters": true,
+            "VideoAvgBitrate": 3000.0,
+            "VideoColorMatrixCodeOverride": 0,
+            "VideoEncoder": "x264",
+            "VideoFramerate": "30",
+            "VideoFramerateCFR": false,
+            "VideoFramerateMode": "pfr",
+            "VideoFrameratePFR": true,
+            "VideoFramerateVFR": false,
+            "VideoGrayScale": false,
+            "VideoHWDecode": 0,
+            "VideoLevel": "3.1",
+            "VideoOptionExtra": "",
+            "VideoPreset": "fast",
+            "VideoPresetSlider": 4,
+            "VideoProfile": "main",
+            "VideoQSVDecode": false,
+            "VideoQualitySlider": 21,
+            "VideoQualityType": 2,
+            "VideoScaler": "swscale",
+            "VideoTune": "none",
+            "VideoTurboTwoPass": true,
+            "VideoTwoPass": true,
+            "activity_location": "/home/mnkey/.config/ghb/Activity.log.11635",
+            "angle": 1.0,
+            "angle_count": 1,
+            "chapter_list": [],
+            "crop_mode": "auto",
+            "dest_dir": "/home/mnkey/Downloads/.torrents",
+            "dest_file": "01 - Кодирование информации Задание 4, 11.mp4",
+            "destination": "/home/mnkey/Downloads/.torrents/01 - Кодирование информации Задание 4, 11.mp4",
+            "end_point": 1.0,
+            "final_aspect_ratio": "16:9",
+            "final_storage_size": "1280 x 720",
+            "hflip": false,
+            "job_finish_time": 1692170164,
+            "job_pause_time_ms": 0,
+            "job_start_time": 1692170053,
+            "job_status": 2,
+            "job_unique_id": 2,
+            "preset_modified": false,
+            "preset_reload": false,
+            "preview_frame": 2,
+            "queue_activity_location": "",
+            "resolution_limit": "720p",
+            "rotate": "0",
+            "scale_height": 720.0,
+            "scale_width": 1280.0,
+            "single_title": 1.0,
+            "source": "/home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4",
+            "source_aspect_ratio": "16:9",
+            "source_display_size": "1920 x 1080",
+            "source_height": 1080,
+            "source_label": "01 - Кодирование информации Задание 4, 11",
+            "source_storage_size": "1920 x 1080",
+            "source_width": 1920,
+            "start_frame": -1,
+            "start_point": 1.0,
+            "title": "1",
+            "title_selected": false,
+            "volume": "01 - Кодирование информации Задание 4, 11",
+            "vquality_type_bitrate": false,
+            "vquality_type_constant": true,
+            "x264FastDecode": false,
+            "x264Option": "",
+            "x264UseAdvancedOptions": false,
+            "x264ZeroLatency": false
+        }
+    }
+]

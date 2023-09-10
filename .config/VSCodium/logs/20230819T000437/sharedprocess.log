@@ -1,0 +1,16 @@
+2023-08-19 00:04:44.188 [info] Getting Manifest... esbenp.prettier-vscode
+2023-08-19 00:04:44.200 [info] Getting Manifest... mvllow.rose-pine
+2023-08-19 00:04:45.992 [info] Installing extension: esbenp.prettier-vscode
+2023-08-19 00:04:45.996 [info] Installing extension: mvllow.rose-pine
+2023-08-19 00:04:47.086 [info] Extension signature verification is not done: mvllow.rose-pine
+2023-08-19 00:04:47.194 [info] Extracted extension to file:///home/mnkey/.vscode-oss/extensions/mvllow.rose-pine-2.8.1-universal: mvllow.rose-pine
+2023-08-19 00:04:47.245 [info] Renamed to /home/mnkey/.vscode-oss/extensions/mvllow.rose-pine-2.8.1-universal
+2023-08-19 00:04:47.249 [info] Extracting extension completed. mvllow.rose-pine
+2023-08-19 00:04:47.312 [info] Extension installed successfully: mvllow.rose-pine
+2023-08-19 00:04:47.320 [info] Marked extension as uninstalled mvllow.rose-pine-2.8.0-universal
+2023-08-19 00:04:49.295 [info] Extension signature verification is not done: esbenp.prettier-vscode
+2023-08-19 00:04:49.532 [info] Extracted extension to file:///home/mnkey/.vscode-oss/extensions/esbenp.prettier-vscode-10.1.0-universal: esbenp.prettier-vscode
+2023-08-19 00:04:49.599 [info] Renamed to /home/mnkey/.vscode-oss/extensions/esbenp.prettier-vscode-10.1.0-universal
+2023-08-19 00:04:49.602 [info] Extracting extension completed. esbenp.prettier-vscode
+2023-08-19 00:04:49.647 [info] Extension installed successfully: esbenp.prettier-vscode
+2023-08-19 00:04:49.654 [info] Marked extension as uninstalled esbenp.prettier-vscode-9.15.0-universal

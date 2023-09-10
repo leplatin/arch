@@ -1,0 +1,16 @@
+# <file system>					<dir>		<type>	<options>		<dump> <pass>
+
+# /dev/sda2
+UUID=a9215f7c-68eb-4113-89eb-1272ddcfab3a	/         	ext4	rw,noatime		0 1
+
+# /dev/sda1
+UUID=82F1-2B44					/boot		vfat	defaults,relatime	0 2
+
+# /dev/sdc1
+UUID=c13d1203-8a13-4b88-bffc-4d19c70912c8	/home     	ext4	rw,noatime		0 2
+
+# /dev/sdc2
+UUID=18c19945-fff3-439f-b46f-60cd68799a42	/var      	ext4	rw,noatime		0 2
+
+# /dev/sdd1
+UUID="eed14970-114b-450b-ab1b-76f1a6d93305"	/mnt/250GB	ext4	rw,noatime		0 2

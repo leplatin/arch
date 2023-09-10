@@ -1,0 +1,48 @@
+#! /bin/sh
+
+# Applications to start on session start
+# Intended to be called from bspwmrc or similar wm startup script
+
+# display profile, brightness and gamma
+#displaysettings &
+
+# window compositor
+picom -b &
+
+# set the wallpaper
+xwallpaper --zoom $HOME/.local/share/wallpapers/000.jpg &
+
+# blue light filter
+# redshift -l 51.67204:39.1843 &
+
+# remapping caps lock
+# keyboard_configure &
+
+# keybindings daemon
+sxhkd &
+
+# adjusting tablet aspect ratio
+# where height is tablet_width * screen_height / screen_width
+#xsetwacom get "Wacom Intuos3 9x12 Pen stylus" Area
+#wacom &
+
+# notification daemon
+dunst &
+
+# launch polybar
+$HOME/.config/polybar/launch.sh &
+
+# suspend after 30 minutes of inactivity
+#xidlehook --not-when-audio --not-when-fullscreen --timer 1800 'systemctl suspend' '' & # automatically suspend after 30 minutes of inactivity
+
+# update newsboat rss feeds on startup
+#newsboat -x reload &
+
+# music player daemon
+#mpd &
+
+# mpd support for playerctl + mpd notifications
+#mpDris2 &
+
+# prevents middle click paste in terminal because it's annoying
+#xmousepasteblock &

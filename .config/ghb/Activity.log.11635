@@ -1,0 +1,777 @@
+[10:12:57] gtkgui: HandBrake 1.6.1 (2023021700) - Linux x86_64 - https://handbrake.fr
+[10:12:57] Compile-time hardening features are enabled
+[10:12:57] qsv: not available on this system
+Cannot load libnvidia-encode.so.1
+[10:12:57] hb_init: starting libhb thread
+[10:12:57] hb_init: starting libhb thread
+[10:12:57] hb_init: starting libhb thread
+
+(fr.handbrake.ghb:11635): Gtk-WARNING **: 10:12:57.663: Failed to measure available space: The specified location is not supported
+
+(fr.handbrake.ghb:11635): Gtk-WARNING **: 10:12:57.663: Failed to measure available space: The specified location is not supported
+
+(fr.handbrake.ghb:11635): Gtk-WARNING **: 10:12:57.663: Failed to measure available space: The specified location is not supported
+
+(fr.handbrake.ghb:11635): Gtk-WARNING **: 10:12:57.663: Failed to measure available space: The specified location is not supported
+
+(fr.handbrake.ghb:11635): Gtk-WARNING **: 10:12:57.663: Failed to measure available space: The specified location is not supported
+
+(fr.handbrake.ghb:11635): Gtk-WARNING **: 10:12:57.663: Failed to measure available space: The specified location is not supported
+
+(fr.handbrake.ghb:11635): Gtk-WARNING **: 10:12:57.663: Failed to measure available space: The specified location is not supported
+
+(fr.handbrake.ghb:11635): Gtk-WARNING **: 10:12:57.663: Failed to measure available space: The specified location is not supported
+[10:13:06] CPU: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+[10:13:06]  - Intel microarchitecture Haswell
+[10:13:06]  - logical processor count: 8
+[10:13:06] Intel Quick Sync Video support: no
+[10:13:06] hb_scan: path=/home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4, title_index=0
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:333: failed opening UDF image /home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4
+disc.c:437: error opening file BDMV/index.bdmv
+disc.c:437: error opening file BDMV/BACKUP/index.bdmv
+[10:13:06] bd: not a bd - trying as a stream/file instead
+libdvdread: DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdnav: vm: vm: failed to read VIDEO_TS.IFO
+[10:13:06] dvd: not a dvd - trying as a stream/file instead
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    encoder         : Lavf58.76.100
+  Duration: 02:59:09.08, start: 0.000000, bitrate: 964 kb/s
+  Stream #0:0[0x1](und): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 1920x1080, 824 kb/s, 60 fps, 60 tbr, 16k tbn (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 08/15/2023.
+      vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+[10:13:06] scan: decoding previews for title 1
+[10:13:06] scan: audio 0x1: aac, rate=44100Hz, bitrate=127999 English (AAC LC) (2.0 ch) (127 kbps)
+[10:13:06] hb_save_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_0.jpg (reason: No such file or directory)
+[10:13:06] hb_save_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_1.jpg (reason: No such file or directory)
+[10:13:06] hb_save_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_2.jpg (reason: No such file or directory)
+[10:13:06] hb_save_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_3.jpg (reason: No such file or directory)
+[10:13:07] hb_save_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_4.jpg (reason: No such file or directory)
+[10:13:07] hb_save_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_5.jpg (reason: No such file or directory)
+[10:13:07] hb_save_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_6.jpg (reason: No such file or directory)
+[10:13:07] hb_save_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_7.jpg (reason: No such file or directory)
+[10:13:07] hb_save_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_8.jpg (reason: No such file or directory)
+[10:13:07] hb_save_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_9.jpg (reason: No such file or directory)
+[10:13:07] scan: 10 previews, 1920x1080, 60.000 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: unspecified
+[10:13:07] Title is likely interlaced or telecined (10 out of 10 previews). You should do something about that.
+[10:13:07] libhb: scan thread found 1 valid title(s)
+[10:13:07] hb_read_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_1.jpg (reason: No such file or directory)
+[10:13:26] gtkgui: Preset: /Matroska/VP9 MKV 720p30
+[10:13:26] Starting work at: Wed Aug 16 10:13:26 2023
+
+[10:13:26] 1 job(s) to process
+[10:13:26] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 160,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "copy:aac",
+                "Gain": 0.0,
+                "Mixdown": "none",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "opus",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [],
+        "FallbackEncoder": "opus"
+    },
+    "Destination": {
+        "AlignAVStart": false,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 2,
+                    "Minutes": 59,
+                    "Seconds": 9,
+                    "Ticks": 967416750
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/mnkey/Downloads/.torrents/01 - Кодирование информации Задание 4, 11.mkv",
+        "InlineParameterSets": false,
+        "Mp4Options": {
+            "IpodAtom": false,
+            "Mp4Optimize": false
+        },
+        "Mux": "mkv"
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 3,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 4,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 7,
+                "Settings": {
+                    "mode": 2,
+                    "rate": "27000000/900000"
+                }
+            },
+            {
+                "ID": 14,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 720,
+                    "width": 1280
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "Name": "01 - Кодирование информации Задание 4, 11"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "Path": "/home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "Bitrate": 2500,
+        "ChromaLocation": 0,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 1,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "VP9",
+        "HardwareDecode": 0,
+        "Level": "",
+        "Options": "qmin=0:qmax=30",
+        "Preset": "medium",
+        "Profile": "",
+        "QSV": {
+            "AdapterIndex": 0,
+            "AsyncDepth": 0,
+            "Decode": false
+        },
+        "Tune": "",
+        "Turbo": false,
+        "TwoPass": true
+    }
+}
+[10:13:26] CPU: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+[10:13:26]  - Intel microarchitecture Haswell
+[10:13:26]  - logical processor count: 8
+[10:13:26] Intel Quick Sync Video support: no
+[10:13:26] hb_scan: path=/home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4, title_index=1
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:333: failed opening UDF image /home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4
+disc.c:437: error opening file BDMV/index.bdmv
+disc.c:437: error opening file BDMV/BACKUP/index.bdmv
+[10:13:26] bd: not a bd - trying as a stream/file instead
+libdvdread: DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdnav: vm: vm: failed to read VIDEO_TS.IFO
+[10:13:26] dvd: not a dvd - trying as a stream/file instead
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    encoder         : Lavf58.76.100
+  Duration: 02:59:09.08, start: 0.000000, bitrate: 964 kb/s
+  Stream #0:0[0x1](und): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 1920x1080, 824 kb/s, 60 fps, 60 tbr, 16k tbn (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 08/15/2023.
+      vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+[10:13:26] scan: decoding previews for title 1
+[10:13:26] scan: audio 0x1: aac, rate=44100Hz, bitrate=127999 English (AAC LC) (2.0 ch) (127 kbps)
+[10:13:27] scan: 10 previews, 1920x1080, 60.000 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: unspecified
+[10:13:27] Title is likely interlaced or telecined (10 out of 10 previews). You should do something about that.
+[10:13:27] libhb: scan thread found 1 valid title(s)
+[10:13:27] Starting Task: Analysis Pass
+[10:13:27] job configuration:
+[10:13:27]  * source
+[10:13:27]    + /home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4
+[10:13:27]    + title 1, chapter(s) 1 to 1
+[10:13:27]    + container: mov,mp4,m4a,3gp,3g2,mj2
+[10:13:27]    + data rate: 964 kbps
+[10:13:27]  * destination
+[10:13:27]    + /home/mnkey/Downloads/.torrents/01 - Кодирование информации Задание 4, 11.mkv
+[10:13:27]    + container: Matroska (libavformat)
+[10:13:27]  * video track
+[10:13:27]    + decoder: vp9 8-bit (yuv420p)
+[10:13:27]      + bitrate 824 kbps
+[10:13:27]    + filters
+[10:13:27]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[10:13:27]      + Decomb (mode=39)
+[10:13:27]      + Framerate Shaper (mode=2:rate=27000000/900000)
+[10:13:27]        + frame rate: 60.000 fps -> peak rate limited to 30.000 fps
+[10:13:27]      + Crop and Scale (width=1280:height=720:crop-top=0:crop-bottom=0:crop-left=0:crop-right=0)
+[10:13:27]        + source: 1920 * 1080, crop (0/0/0/0): 1920 * 1080, scale: 1280 * 720
+[10:13:27]    + Output geometry
+[10:13:27]      + storage dimensions: 1280 x 720
+[10:13:27]      + pixel aspect ratio: 1 : 1
+[10:13:27]      + display dimensions: 1280 x 720
+[10:13:27]    + encoder: VP9 (libvpx)
+[10:13:27]      + preset:  medium
+[10:13:27]      + options: qmin=0:qmax=30
+[10:13:27]      + bitrate: 2500 kbps, pass: 1
+[10:13:27]      + color profile: 1-1-1
+[10:13:27]      + chroma location: unspecified
+[10:13:27]  * audio track 1
+[10:13:27]    + decoder: English (AAC LC) (2.0 ch) (127 kbps) (track 1, id 0x1)
+[10:13:27]      + bitrate: 127 kbps, samplerate: 44100 Hz
+[10:13:27]    + AAC Passthru
+[10:13:27] sync: expecting 644944 video frames
+[10:13:27] encavcodecInit: VP9 encoder
+[10:13:27] encavcodec: encoding with stored aspect 1/1
+[10:13:27] hb_read_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_1.jpg (reason: No such file or directory)
+[10:13:27] encavcodecInit: Failed to open /home/mnkey/.cache/handbrake/hb.11635/ffmpeg.log (reason: No such file or directory)
+[10:13:27] Failure to initialise thread 'FFMPEG encoder (libavcodec)'
+[10:13:27] comb detect: heavy 0 | light 0 | uncombed 0 | total 0
+[10:13:27] vfr: 0 frames output, 0 dropped and 0 duped for CFR/PFR
+[10:13:27] vfr: lost time: 0 (0 frames)
+[10:13:27] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[10:13:27] aac-decoder done: 0 frames, 0 decoder errors
+[10:13:27] vp9-decoder done: 0 frames, 0 decoder errors
+[10:13:27] sync: got 0 frames, 644944 expected
+[10:13:27] Finished work at: Wed Aug 16 10:13:27 2023
+
+[10:13:27] libhb: work result = 3
+[10:13:54] hb_read_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_1.jpg (reason: No such file or directory)
+[10:14:13] gtkgui: Preset: /General/Fast 720p30
+[10:14:13] Starting work at: Wed Aug 16 10:14:13 2023
+
+[10:14:13] 1 job(s) to process
+[10:14:13] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 160,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "copy:aac",
+                "Gain": 0.0,
+                "Mixdown": "none",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": true,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 2,
+                    "Minutes": 59,
+                    "Seconds": 9,
+                    "Ticks": 967416750
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/mnkey/Downloads/.torrents/01 - Кодирование информации Задание 4, 11.mp4",
+        "InlineParameterSets": false,
+        "Mp4Options": {
+            "IpodAtom": false,
+            "Mp4Optimize": false
+        },
+        "Mux": "m4v"
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 3,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 4,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 7,
+                "Settings": {
+                    "mode": 2,
+                    "rate": "27000000/900000"
+                }
+            },
+            {
+                "ID": 14,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 720,
+                    "width": 1280
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "Name": "01 - Кодирование информации Задание 4, 11"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "Path": "/home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "ChromaLocation": 0,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 1,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "x264",
+        "HardwareDecode": 0,
+        "Level": "3.1",
+        "Options": "",
+        "Preset": "fast",
+        "Profile": "main",
+        "QSV": {
+            "AdapterIndex": 0,
+            "AsyncDepth": 0,
+            "Decode": false
+        },
+        "Quality": 21.0,
+        "Tune": "",
+        "Turbo": false,
+        "TwoPass": false
+    }
+}
+[10:14:13] CPU: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+[10:14:13]  - Intel microarchitecture Haswell
+[10:14:13]  - logical processor count: 8
+[10:14:13] Intel Quick Sync Video support: no
+[10:14:13] hb_scan: path=/home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4, title_index=1
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:333: failed opening UDF image /home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4
+disc.c:437: error opening file BDMV/index.bdmv
+disc.c:437: error opening file BDMV/BACKUP/index.bdmv
+[10:14:13] bd: not a bd - trying as a stream/file instead
+libdvdread: DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdnav: vm: vm: failed to read VIDEO_TS.IFO
+[10:14:13] dvd: not a dvd - trying as a stream/file instead
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    encoder         : Lavf58.76.100
+  Duration: 02:59:09.08, start: 0.000000, bitrate: 964 kb/s
+  Stream #0:0[0x1](und): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 1920x1080, 824 kb/s, 60 fps, 60 tbr, 16k tbn (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 08/15/2023.
+      vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+[10:14:13] scan: decoding previews for title 1
+[10:14:13] scan: audio 0x1: aac, rate=44100Hz, bitrate=127999 English (AAC LC) (2.0 ch) (127 kbps)
+[10:14:13] scan: 10 previews, 1920x1080, 60.000 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: unspecified
+[10:14:13] Title is likely interlaced or telecined (10 out of 10 previews). You should do something about that.
+[10:14:13] libhb: scan thread found 1 valid title(s)
+[10:14:13] Starting Task: Encoding Pass
+[10:14:13] job configuration:
+[10:14:13]  * source
+[10:14:13]    + /home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4
+[10:14:13]    + title 1, chapter(s) 1 to 1
+[10:14:13]    + container: mov,mp4,m4a,3gp,3g2,mj2
+[10:14:13]    + data rate: 964 kbps
+[10:14:13]  * destination
+[10:14:13]    + /home/mnkey/Downloads/.torrents/01 - Кодирование информации Задание 4, 11.mp4
+[10:14:13]    + container: MPEG-4 (libavformat)
+[10:14:13]      + align initial A/V stream timestamps
+[10:14:13]  * video track
+[10:14:13]    + decoder: vp9 8-bit (yuv420p)
+[10:14:13]      + bitrate 824 kbps
+[10:14:13]    + filters
+[10:14:13]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[10:14:13]      + Decomb (mode=39)
+[10:14:13]      + Framerate Shaper (mode=2:rate=27000000/900000)
+[10:14:13]        + frame rate: 60.000 fps -> peak rate limited to 30.000 fps
+[10:14:13]      + Crop and Scale (width=1280:height=720:crop-top=0:crop-bottom=0:crop-left=0:crop-right=0)
+[10:14:13]        + source: 1920 * 1080, crop (0/0/0/0): 1920 * 1080, scale: 1280 * 720
+[10:14:13]    + Output geometry
+[10:14:13]      + storage dimensions: 1280 x 720
+[10:14:13]      + pixel aspect ratio: 1 : 1
+[10:14:13]      + display dimensions: 1280 x 720
+[10:14:13]    + encoder: H.264 (libx264)
+[10:14:13]      + preset:  fast
+[10:14:13]      + profile: main
+[10:14:13]      + level:   3.1
+[10:14:13]      + quality: 21.00 (RF)
+[10:14:13]      + color profile: 1-1-1
+[10:14:13]      + chroma location: unspecified
+[10:14:13]  * audio track 1
+[10:14:13]    + decoder: English (AAC LC) (2.0 ch) (127 kbps) (track 1, id 0x1)
+[10:14:13]      + bitrate: 127 kbps, samplerate: 44100 Hz
+[10:14:13]    + AAC Passthru
+[10:14:13] sync: expecting 644944 video frames
+[10:14:13] encx264: min-keyint: 30, keyint: 300
+[10:14:13] encx264: encoding at constant RF 21.000000
+[10:14:13] encx264: unparsed options: level=3.1:ref=2:8x8dct=0:weightp=1:subme=6:vbv-bufsize=14000:vbv-maxrate=14000:rc-lookahead=30
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x264 [info]: profile Main, level 3.1, 4:2:0, 8-bit
+[10:14:13] sync: first pts video is 0
+[10:14:13] sync: Chapter 1 at frame 1 time 0
+[10:14:13] sync: first pts audio 0x1 is 0
+[10:16:04] work: average encoding speed for job is 119.461815 fps
+[10:16:04] comb detect: heavy 24 | light 104 | uncombed 13064 | total 13192
+[10:16:04] decomb: deinterlaced 24 | blended 104 | unfiltered 13059 | total 13187
+[10:16:04] vfr: 6591 frames output, 6590 dropped and 0 duped for CFR/PFR
+[10:16:04] vfr: lost time: 0 (0 frames)
+[10:16:04] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[10:16:04] aac-decoder done: 9513 frames, 0 decoder errors
+[10:16:04] vp9-decoder done: 13241 frames, 0 decoder errors
+[10:16:04] sync: got 13206 frames, 644944 expected
+[10:16:04] sync: framerate min 60.000 fps, max 60.000 fps, avg 60.000 fps
+x264 [info]: frame I:22    Avg QP:15.15  size:110726
+x264 [info]: frame P:1663  Avg QP:17.33  size:  3049
+x264 [info]: frame B:4859  Avg QP:17.83  size:   206
+x264 [info]: consecutive B-frames:  0.5%  1.0%  1.3% 97.2%
+x264 [info]: mb I  I16..4: 18.2%  0.0% 81.8%
+x264 [info]: mb P  I16..4:  0.1%  0.0%  0.1%  P16..4: 10.2%  1.8%  1.4%  0.0%  0.0%    skip:86.4%
+x264 [info]: mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  1.1%  0.3%  0.0%  direct: 0.4%  skip:98.1%  L0:32.0% L1:47.7% BI:20.2%
+x264 [info]: coded y,uvDC,uvAC intra: 66.3% 89.8% 77.5% inter: 1.1% 2.1% 0.2%
+x264 [info]: i16 v,h,dc,p: 34% 51%  9%  6%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 48% 34%  5%  2%  2%  2%  2%  2%  2%
+x264 [info]: i8c dc,h,v,p: 20% 48% 29%  3%
+x264 [info]: Weighted P-Frames: Y:0.0% UV:0.0%
+x264 [info]: ref P L0: 78.7% 21.3%
+x264 [info]: ref B L0: 88.8% 11.2%
+x264 [info]: ref B L1: 94.9%  5.1%
+x264 [info]: kb/s:312.00
+[10:16:04] mux: track 0, 6544 frames, 8506357 bytes, 309.13 kbps, fifo 8192
+[10:16:04] mux: track 1, 9479 frames, 3521889 bytes, 127.99 kbps, fifo 16384
+[10:16:04] Finished work at: Wed Aug 16 10:16:04 2023
+
+[10:16:04] libhb: work result = 1
+[10:18:07] hb_read_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_1.jpg (reason: No such file or directory)
+[10:18:07] hb_read_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_1.jpg (reason: No such file or directory)
+[10:18:50] hb_read_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_1.jpg (reason: No such file or directory)
+[10:18:50] hb_read_preview: Failed to open /home/mnkey/.cache/handbrake/hb.11635/0_1_1.jpg (reason: No such file or directory)
+[10:20:24] gtkgui: Modified Preset: /Hardware/H.265 QSV 1080p
+[10:20:24] Starting work at: Wed Aug 16 10:20:24 2023
+
+[10:20:24] 1 job(s) to process
+[10:20:24] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 160,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "copy:aac",
+                "Gain": 0.0,
+                "Mixdown": "none",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac"
+        ],
+        "FallbackEncoder": "none"
+    },
+    "Destination": {
+        "AlignAVStart": false,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 2,
+                    "Minutes": 59,
+                    "Seconds": 9,
+                    "Ticks": 967416750
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/mnkey/Downloads/.torrents/01 - Кодирование информации Задание 4, 11.mp4",
+        "InlineParameterSets": false,
+        "Mp4Options": {
+            "IpodAtom": false,
+            "Mp4Optimize": false
+        },
+        "Mux": "m4v"
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 7,
+                "Settings": {
+                    "mode": 1,
+                    "rate": "27000000/900000"
+                }
+            },
+            {
+                "ID": 14,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 720,
+                    "width": 1280
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "Name": "01 - Кодирование информации Задание 4, 11"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "Path": "/home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "ChromaLocation": 0,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 1,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "svt_av1",
+        "HardwareDecode": 0,
+        "Level": "auto",
+        "Options": "",
+        "Preset": "12",
+        "Profile": "auto",
+        "QSV": {
+            "AdapterIndex": 0,
+            "AsyncDepth": 0,
+            "Decode": true
+        },
+        "Quality": 25.0,
+        "Tune": "",
+        "Turbo": false,
+        "TwoPass": false
+    }
+}
+[10:20:24] CPU: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+[10:20:24]  - Intel microarchitecture Haswell
+[10:20:24]  - logical processor count: 8
+[10:20:24] Intel Quick Sync Video support: no
+[10:20:24] hb_scan: path=/home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4, title_index=1
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:333: failed opening UDF image /home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4
+disc.c:437: error opening file BDMV/index.bdmv
+disc.c:437: error opening file BDMV/BACKUP/index.bdmv
+[10:20:24] bd: not a bd - trying as a stream/file instead
+libdvdread: DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdnav: vm: vm: failed to read VIDEO_TS.IFO
+[10:20:24] dvd: not a dvd - trying as a stream/file instead
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    encoder         : Lavf58.76.100
+  Duration: 02:59:09.08, start: 0.000000, bitrate: 964 kb/s
+  Stream #0:0[0x1](und): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 1920x1080, 824 kb/s, 60 fps, 60 tbr, 16k tbn (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 08/15/2023.
+      vendor_id       : [0][0][0][0]
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      vendor_id       : [0][0][0][0]
+[10:20:25] scan: decoding previews for title 1
+[10:20:25] scan: audio 0x1: aac, rate=44100Hz, bitrate=127999 English (AAC LC) (2.0 ch) (127 kbps)
+[10:20:25] scan: 10 previews, 1920x1080, 60.000 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: unspecified
+[10:20:25] Title is likely interlaced or telecined (10 out of 10 previews). You should do something about that.
+[10:20:25] libhb: scan thread found 1 valid title(s)
+[10:20:25] Starting Task: Encoding Pass
+[10:20:25] job configuration:
+[10:20:25]  * source
+[10:20:25]    + /home/mnkey/Downloads/youtube/compege/01 - Кодирование информации Задание 4, 11.mp4
+[10:20:25]    + title 1, chapter(s) 1 to 1
+[10:20:25]    + container: mov,mp4,m4a,3gp,3g2,mj2
+[10:20:25]    + data rate: 964 kbps
+[10:20:25]  * destination
+[10:20:25]    + /home/mnkey/Downloads/.torrents/01 - Кодирование информации Задание 4, 11.mp4
+[10:20:25]    + container: MPEG-4 (libavformat)
+[10:20:25]  * video track
+[10:20:25]    + decoder: vp9 8-bit (yuv420p)
+[10:20:25]      + bitrate 824 kbps
+[10:20:25]    + filters
+[10:20:25]      + Framerate Shaper (mode=1:rate=27000000/900000)
+[10:20:25]        + frame rate: 60.000 fps -> constant 30.000 fps
+[10:20:25]      + Crop and Scale (width=1280:height=720:crop-top=0:crop-bottom=0:crop-left=0:crop-right=0)
+[10:20:25]        + source: 1920 * 1080, crop (0/0/0/0): 1920 * 1080, scale: 1280 * 720
+[10:20:25]    + Output geometry
+[10:20:25]      + storage dimensions: 1280 x 720
+[10:20:25]      + pixel aspect ratio: 1 : 1
+[10:20:25]      + display dimensions: 1280 x 720
+[10:20:25]    + encoder: AV1 (SVT)
+[10:20:25]      + preset:  12
+[10:20:25]      + profile: auto
+[10:20:25]      + level:   auto
+[10:20:25]      + quality: 25.00 (RF)
+[10:20:25]      + color profile: 1-1-1
+[10:20:25]      + chroma location: unspecified
+[10:20:25]  * audio track 1
+[10:20:25]    + decoder: English (AAC LC) (2.0 ch) (127 kbps) (track 1, id 0x1)
+[10:20:25]      + bitrate: 127 kbps, samplerate: 44100 Hz
+[10:20:25]    + AAC Passthru
+[10:20:25] sync: expecting 644944 video frames
+[10:20:25] encavcodecInit: AV1 encoder
+[10:20:25] encavcodec: encoding at CRF 25.00
+[10:20:25] encavcodec: encoding with stored aspect 1/1
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v1.4.1
+Svt[info]: SVT [build]  :	GCC 12.2.1 20230201	 64 bit
+Svt[info]: LIB Build date: Feb 17 2023 17:08:23
+Svt[info]: -------------------------------------------
+Svt[info]: Number of logical cores available: 8
+Svt[info]: Number of PPCS 54
+Svt[info]: [asm level on system : up to avx2]
+Svt[info]: [asm level selected : up to avx2]
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [config]: main profile	tier (auto)	level (auto)
+Svt[info]: SVT [config]: width / height / fps numerator / fps denominator 		: 1280 / 720 / 30 / 1
+Svt[info]: SVT [config]: bit-depth / color format 					: 8 / YUV420
+Svt[info]: SVT [config]: preset / tune / pred struct 					: 12 / VQ / random access
+Svt[info]: SVT [config]: gop size / mini-gop size / key-frame type 			: 305 / 16 / key frame
+Svt[info]: SVT [config]: BRC mode / rate factor 					: CRF / 25 
+Svt[info]: -------------------------------------------
+[10:20:28] sync: first pts video is 0
+[10:20:28] sync: Chapter 1 at frame 1 time 0
+[10:20:28] sync: first pts audio 0x1 is 0
+[11:08:27] reader: done. 1 scr changes
+[11:08:28] work: average encoding speed for job is 224.914886 fps
+[11:08:28] vfr: 322471 frames output, 322469 dropped and 0 duped for CFR/PFR
+[11:08:28] vfr: lost time: 0 (0 frames)
+[11:08:28] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[11:08:28] aac-decoder done: 462924 frames, 0 decoder errors
+[11:08:28] vp9-decoder done: 644940 frames, 0 decoder errors
+[11:08:28] sync: got 644940 frames, 644944 expected
+[11:08:28] sync: framerate min 60.000 fps, max 60.000 fps, avg 60.000 fps
+[11:08:28] mux: track 0, 322471 frames, 568367018 bytes, 423.01 kbps, fifo 16384
+[11:08:28] mux: track 1, 462924 frames, 171985188 bytes, 128.00 kbps, fifo 16384
+[11:08:28] Finished work at: Wed Aug 16 11:08:28 2023
+
+[11:08:28] libhb: work result = 0

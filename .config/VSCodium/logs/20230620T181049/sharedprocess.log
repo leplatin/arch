@@ -1,0 +1,9 @@
+2023-06-20 18:10:52.792 [info] Starting worker process with pid 286961 (type: fileWatcher, window: 1).
+2023-06-20 18:10:57.237 [info] Getting Manifest... esbenp.prettier-vscode
+2023-06-20 18:10:59.320 [info] Installing extension: esbenp.prettier-vscode
+2023-06-20 18:11:03.699 [info] Extension signature verification: esbenp.prettier-vscode. Verification status: Unverified.
+2023-06-20 18:11:03.836 [info] Extracted extension to /home/mnkey/.vscode-oss/extensions/.a6df5364-1a24-4094-afa5-5bce3aab066c: esbenp.prettier-vscode
+2023-06-20 18:11:03.888 [info] Renamed to /home/mnkey/.vscode-oss/extensions/esbenp.prettier-vscode-9.14.0-universal
+2023-06-20 18:11:03.891 [info] Extracting extension completed. esbenp.prettier-vscode
+2023-06-20 18:11:03.936 [info] Extension installed successfully: esbenp.prettier-vscode
+2023-06-20 18:11:03.939 [info] Marked extension as uninstalled esbenp.prettier-vscode-9.13.0-universal

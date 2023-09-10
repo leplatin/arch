@@ -1,0 +1,9 @@
+anchor=top-right
+default-timeout=10000
+width=300
+font=JetBrains Mono 8
+background-color=#24273AFF
+text-color=#CAD3F5
+border-color=#494D64FF
+height=500
+border-radius=10

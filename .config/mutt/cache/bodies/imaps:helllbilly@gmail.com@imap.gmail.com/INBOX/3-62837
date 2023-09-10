@@ -1,0 +1,145 @@
+Delivered-To: helllbilly@gmail.com
+Received: by 2002:a05:6020:e10d:b0:277:3724:a5f0 with SMTP id h13csp2620478wdp;
+        Wed, 22 Mar 2023 02:08:11 -0700 (PDT)
+X-Received: by 2002:aa7:d887:0:b0:500:4e0c:2b09 with SMTP id u7-20020aa7d887000000b005004e0c2b09mr5322820edq.7.1679476091357;
+        Wed, 22 Mar 2023 02:08:11 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1679476091; cv=none;
+        d=google.com; s=arc-20160816;
+        b=QItvo0jJwtGCudMWKCei+RO1MHAZJU4+eB2PE3N8boo5XDgsLd8VppEUruAc2EKaO+
+         9MDw92zBnF/ZaMIAOOJiCyqoXRmH8rpO65GViNbFd7qgPwgw8tuoVb2/Ha8gVkXGQl2E
+         QRrfpVWqjs96STZU6ebX38QbT/WWITq9v7pjPSeztRPO5Ix0u76yVtSgXWMUeqSoxs/o
+         xr9p3arY7pV9pgfflCthrZHRLyngBx4e9iFVBgprpGTIt2PB7bCbzOYNMQhaLWdmN+7W
+         7BSe1aR21FcRO8G7Se8HHubW7fxy1sUpiof1r9O45lKBLNX/whJFnSlEAWZD+G2+i/Sl
+         5rxw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:from:subject:date:message-id:mime-version:dkim-signature;
+        bh=KNAyrcvFyloQIJ/ow+6oZ8FxL+UI97BcfEy/44SqE3Y=;
+        b=pVma+VTjBz8/V8bl3KuoFLoSLMsOSArD6RotypV+ubEGvXru78igu95VXoPfZAaGZS
+         hvTP6Jf96eIO8nruSQzTvvukISjI0qeU2qP6nZ1bP+53vS7+mnDXX+lP/eow9jchoEJ1
+         tydYQtomal0chTx3dWJTsC6nUPIQzN/YLsTwkkPZWj9gIUTmtSvLiW1gOHAzkW7UyhJA
+         ZO6Aqc1pfqhv/sGnNcBqylzf/MHGyCZUjM/xW6wLm7zjmSqAk9JoEktAqDvy3MXlT9lE
+         QWHfCMTM318rKoqr2kDeOgggvpOBfDuqpb2Tu85dpb58VK9ztNTD3aaj99szE7POUnNI
+         zjvQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@google.com header.s=20210112 header.b=oX5hQV7v;
+       spf=pass (google.com: domain of 3e8uazackcpgfgj6hdq8gg8d6.4ge96ddd3addq8e2ad.4ge@takeout.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3e8UaZAcKCpgFGJ6HDQ8GG8D6.4GE96DDD3ADDQ8E2AD.4GE@takeout.bounces.google.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com
+Return-Path: <3e8UaZAcKCpgFGJ6HDQ8GG8D6.4GE96DDD3ADDQ8E2AD.4GE@takeout.bounces.google.com>
+Received: from mail-sor-f69.google.com (mail-sor-f69.google.com. [209.85.220.69])
+        by mx.google.com with SMTPS id n18-20020a509352000000b004fd2a7b0fa0sor7197712eda.62.2023.03.22.02.08.11
+        for <helllbilly@gmail.com>
+        (Google Transport Security);
+        Wed, 22 Mar 2023 02:08:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3e8uazackcpgfgj6hdq8gg8d6.4ge96ddd3addq8e2ad.4ge@takeout.bounces.google.com designates 209.85.220.69 as permitted sender) client-ip=209.85.220.69;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@google.com header.s=20210112 header.b=oX5hQV7v;
+       spf=pass (google.com: domain of 3e8uazackcpgfgj6hdq8gg8d6.4ge96ddd3addq8e2ad.4ge@takeout.bounces.google.com designates 209.85.220.69 as permitted sender) smtp.mailfrom=3e8UaZAcKCpgFGJ6HDQ8GG8D6.4GE96DDD3ADDQ8E2AD.4GE@takeout.bounces.google.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20210112; t=1679476091;
+        h=to:from:subject:date:message-id:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=KNAyrcvFyloQIJ/ow+6oZ8FxL+UI97BcfEy/44SqE3Y=;
+        b=oX5hQV7vKUxnR/0EIQVTSqh8qqyMb8cmDEAZvY8GBFGfw5kJzyosKgIbot0H1rw3fk
+         Ixs3PjMHDkyAVuxIk+vtyJZr+DPNwOqObhLkFXgQwnleVBJ4ut8uMPvBJw7/RqfYjCp1
+         LPPf+Kds8nBmGwsmId7Lzv4ScA+2E33TN8ofCwXi9LnCfnZPTh8dxCQX7Sg/8VzKyTkj
+         FlO3wuiWBrFaBq2XVgAokmmAi4SD8oRgjScNZ4H+29WTVGpPspZheAxJaidCsYkTyqm1
+         sheHJXs5JnS2yj27CB4lEfmkYkJkNyB1BWSbamTcfnPIV0+oRybJKKLudhcNkU2pX41O
+         y9Hw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1679476091;
+        h=to:from:subject:date:message-id:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=KNAyrcvFyloQIJ/ow+6oZ8FxL+UI97BcfEy/44SqE3Y=;
+        b=IL7MVibOHJx+sxObp7wS6eIAlYcnlLwerxTvvCgOBHhclvcbW+p+mIahSBgsPPrbX6
+         dEm9cYpTo1i/M3fDpLZi8Hdl5lQFsJqwcuXwGp3jRKSYJ6P4oHoNwhGDWh/TKzePnZ2a
+         NWwch7fS1kpGsZ9kXrb8q20vC04yL4rdST0VqoYGWDDUafHoi6PJ9mgAayrGIyQmlyMW
+         fLtv1lrN+8DygUKXKfl5q4W/S+/AL9T0pIceJU/0RlVMWLvDuT0+Mq/0kfE7BVRiq7Z3
+         61NBw2hhNxy+RhHT2YG2D53vIaPrpYR8UbX+cSNqJPgvtIR/Ir54bQJy3Ee5R8jZmjg9
+         Zkow==
+X-Gm-Message-State: AO0yUKX2PjjNfRr5b8w3gdCx5Xb1FV5U96EtLQ3+jhbHE9o9gLEatoFM
+	yUmNDNtm15mGclh8QBPBs54tVuf2E5xSkMvhp9xWuogAacv1YzwRMGwpQLbXiDrImpLrqhxaO4q
+	Zv/J4e/twwoxFvnX9IzDHiCvPsj4TgpN6AKvLdCbyuOs=
+X-Google-Smtp-Source: AK7set8qYFyMNjN4NG1e4ZRJSiDKxyyNPK/CDGMTT2NYxHHSghXwfvrz4xcZnwKg84yPT67I0l9voHOak/CBzlQemQQeQZdOPOJZ8ag=
+MIME-Version: 1.0
+X-Received: by 2002:a50:9546:0:b0:4fc:7014:f917 with SMTP id
+ v6-20020a509546000000b004fc7014f917mr2948870eda.5.1679476091101; Wed, 22 Mar
+ 2023 02:08:11 -0700 (PDT)
+Message-ID: <000000000000d1e15805f7797f94@google.com>
+Date: Wed, 22 Mar 2023 09:08:11 +0000
+Subject: Your Google data is ready to download
+From: Google Takeout <noreply@google.com>
+To: helllbilly@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000d1e14e05f7797f91"
+
+--000000000000d1e14e05f7797f91
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+
+Your account, your data.
+We&#39;ve finished creating a copy of the Google data you requested on  
+March 22, 2023. You can download your files until March 29, 2023.
+Your download will contain data from:
+YouTube and YouTube Music
+Manage exports  
+(https://accounts.google.com/AccountChooser?continue=https://takeout.google.com/settings/takeout/downloads&amp;Email=helllbilly@gmail.com)
+Download your files  
+(https://accounts.google.com/AccountChooser?continue=https://takeout.google.com/settings/takeout/download?j%3Df0cbd015-0c51-4ea4-bc35-22bc4918b520%26i%3D0&amp;Email=helllbilly@gmail.com)
+This message was sent to you because you recently used Google Takeout  
+(https://support.google.com/accounts/answer/3024190)
+  Privacy Policy (https://www.google.com/privacy/privacy-policy.html) |  
+Terms of Service (https://www.google.com/accounts/TOS)
+
+
+--000000000000d1e14e05f7797f91
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div align=3D"center" style=3D"width:100%"><div align=3D"center" style=3D"b=
+order-style:solid;border-width:thin;border-color:#dadce0; border-radius:8px=
+;max-width:650px"><img src=3D"https://www.gstatic.com/images/branding/googl=
+elogo/1x/googlelogo_color_74x24dp.png" width=3D"74" height=3D"24" aria-hidd=
+en=3D"true" style=3D"margin-bottom:16px;margin-top:40px" class=3D"CToWUd" a=
+lt=3D"Google logo"><div style=3D"font-family:Roboto-Regular,Helvetica,Arial=
+,sans-serif;font-size:14px; color:rgba(0,0,0,0.87);line-height:20px;text-al=
+ign:left;padding:0 20px;"><div><div align=3D"center" style=3D"font-size:24p=
+x;font-family:'Google Sans',Roboto,RobotoDraft, Helvetica,Arial,sans-serif;=
+border-bottom:thin solid #dadce0; color:rgba(0,0,0,0.87);line-height:32px;m=
+argin-bottom:24px; padding-bottom:24px;text-align:center;word-break:break-w=
+ord">Your account, your data.</div><div>We've finished creating a copy of t=
+he Google data you requested on March 22, 2023. You can download your files=
+ until March 29, 2023.</div><div style=3D"padding-top:15px">Your download w=
+ill contain data from:</div><ul><li>YouTube and YouTube Music</li></ul></di=
+v><div style=3D"text-align:center"><p><a style=3D"background-color: #fff;; =
+color: #000;; display: inline-block; padding: 7px 15px; font-size: 15px; fo=
+nt-weight: bold; white-space: normal; border: solid 1px rgba(0, 0, 0, 0.149=
+02); text-decoration: none; border-radius: 3px; font-family:&#39;Google San=
+s&#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif; line-height:16px;colo=
+r:#000;;font-weight:400;text-decoration:none;font-size:14px; display:inline=
+-block;padding:10px 24px;background-color:#fff;;border-radius:5px; min-widt=
+h:90px" href=3D"https://accounts.google.com/AccountChooser?continue=3Dhttps=
+://takeout.google.com/settings/takeout/downloads&amp;Email=3Dhelllbilly@gma=
+il.com">Manage exports</a></p><p><a style=3D"background-color: #4184f3;; co=
+lor: #fff;; display: inline-block; padding: 7px 15px; font-size: 15px; font=
+-weight: bold; white-space: normal; border: solid 1px rgba(0, 0, 0, 0.14902=
+); text-decoration: none; border-radius: 3px; font-family:&#39;Google Sans&=
+#39;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif; line-height:16px;color:=
+#fff;;font-weight:400;text-decoration:none;font-size:14px; display:inline-b=
+lock;padding:10px 24px;background-color:#4184f3;;border-radius:5px; min-wid=
+th:90px" href=3D"https://accounts.google.com/AccountChooser?continue=3Dhttp=
+s://takeout.google.com/settings/takeout/download?j%3Df0cbd015-0c51-4ea4-bc3=
+5-22bc4918b520%26i%3D0&amp;Email=3Dhelllbilly@gmail.com">Download your file=
+s</a></p></div><div>This message was sent to you because you recently used =
+<a style=3D"zSoyz" href=3D"https://support.google.com/accounts/answer/30241=
+90">Google Takeout</a></div></div><div style=3D"border-top: solid 1px #dfdf=
+df; color: #636363; font: 11px Arial; line-height: 1.5em; border-bottom-lef=
+t-radius:8px; border-bottom-right-radius:8px; padding: 10px 20px; backgroun=
+d-color: #f5f5f5; height: 33px; text-align:left;"><div style=3D"width: 350p=
+x; display:inline-block; float: left;">&nbsp;<a style=3D"zSoyz" href=3D"htt=
+ps://www.google.com/privacy/privacy-policy.html">Privacy Policy</a> | <a st=
+yle=3D"zSoyz" href=3D"https://www.google.com/accounts/TOS">Terms of Service=
+</a></div><div style=3D"border-style: none; width: 77px; height: 27px; disp=
+lay:inline-block; float: right;"><img src=3D"https://gstatic.com/images/bra=
+nding/googlelogo/1x/googlelogo_color_74x24dp.png" style=3D"border-style: no=
+ne; width: 74px; height: 24px; padding-top:5px;" alt=3D"Google logo"/></div=
+><br/></div></div></div>
+--000000000000d1e14e05f7797f91--

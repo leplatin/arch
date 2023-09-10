@@ -1,0 +1,150 @@
+{
+    "layer": "top",
+    "position": "top",
+    // "height": 10,
+    // "width": 1920,
+    // "margin-top": 6,
+
+    "modules-left": ["wlr/workspaces"],
+    "modules-center": [
+          "custom/music"
+          // "clock"
+    ],
+    "modules-right": [
+          "custom/updates",
+          // "temperature",
+          "cpu",
+          // "memory",
+          "disk",
+          "pulseaudio",
+          // "pulseaudio#microphone",
+          // "network",
+          // "hyprland/language",
+          "clock",
+          // "custom/lock",
+          "custom/power"
+    ],
+
+    "wlr/workspaces": {
+         "on-click": "activate",
+         "sort-by-number": true,
+         "format": " {icon} ",
+         "format-icons": {
+             "default": "",
+             "active": "󰮯",
+             "urgent": "",
+         },
+     },
+    // "tray": {
+    //     "icon-size": 10,
+    //     "spacing": 10
+    // },
+    "custom/music": {
+        "format": "  {}",
+        "escape": true,
+        "interval": 5,
+        "tooltip": false,
+        "exec": "playerctl metadata --format='{{ title }}'",
+        "on-click": "playerctl play-pause",
+        "max-length": 50
+    },
+    "clock": {
+        "timezone": "Europe/Moscow",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "format-alt": " {:%a %d %b}",
+        "format": " {:%H:%M}"
+    },
+    // "backlight": {
+    //     "device": "intel_backlight",
+    //     "format": "{icon}",
+    //     "format-icons": ["", "", "", "", "", "", "", "", ""]
+    // },
+    // "battery": {
+    //     "states": {
+    //         "warning": 30,
+    //         "critical": 15
+    //     },
+    //     "format": "{icon}",
+    //     "format-charging": "",
+    //     "format-plugged": "",
+    //     "format-alt": "{icon}",
+    //     "format-icons": ["", "",  "", "", "", "", "", "", "", "", "", ""]
+    // },
+    "disk": {
+    "interval": 30,
+    "format": " {free}",
+    "path": "/home/",
+    },
+    "cpu": {
+        "interval": 10,
+        "format": "󰄨 {usage}",
+        "max-length": 10
+    },
+    // "temperature": {
+    //     "interval": 10,
+    //     "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
+    //     "format": " {temperatureC}°",
+    //     "on-click": "psensor"
+    // },
+    // "memory": {
+    //     "interval": 30,
+    //     "format": " {used}",
+    //     "max-length": 10
+    // },
+    "pulseaudio": {
+        "scroll-step": 5, // %, can be a float
+        "format": "{icon} {volume}",
+        "tooltip": false,
+        "format-icons": {
+            "default": ["", "", "󰕾"]
+        },
+        "format-muted": "<span foreground='#737994'> </span>",
+        "on-click": "pavucontrol"
+    },
+    // "pulseaudio#microphone": {
+    //     "format": "{format_source}",
+    //     "format-source": " {volume}",
+    //     "format-source-muted": "",
+    //     "tooltip": false,
+    //     // "on-click": "pamixer --default-source -t",
+    //     "on-scroll-up": "pamixer --default-source -i 5",
+    //     "on-scroll-down": "pamixer --default-source -d 5",
+    //     "scroll-step": 5
+    // },
+    // "custom/lock": {
+    //     "tooltip": false,
+    //     "on-click": "sh -c '(sleep 0.5s; swaylock --grace 0)' & disown",
+    //     "format": "",
+    // },
+    "custom/power": {
+        "tooltip": false,
+        "on-click": "sleep 0.1 && bash ~/.config/wofi/powermenu.sh",
+        "format": ""
+    },
+    // "hyprland/language": {
+    //     "format": "{}",
+    //     "format-en": "EN",
+    //     "format-ru": "RU",
+    //     // "keyboard-name": "apple,-inc-apple-keyboard",
+    //     "on-click": "hyprctl switchxkblayout apple,-inc-apple-keyboard next"
+    // },
+    // "network": {
+    //     "interface": "wlp5s0",
+    //     "format": "{ifname}",
+    //     "format-wifi": "直 inet",
+    //     "format-ethernet": "󰈀  {ipaddr}/{cidr}",
+    //     "format-disconnected": "", //An empty format will hide the module.
+    //     "tooltip": false,
+    //     // "tooltip-format": "󰈀  {ifname} via {gwaddr}",
+    //     // "tooltip-format-wifi": "直 {essid} ({signalStrength})",
+    //     // "tooltip-format-ethernet": "󰒪  {ifname}",
+    //     // "tooltip-format-disconnected": "Disconnected",
+    //     "max-length": 50
+   // },
+    "custom/updates": {
+        "exec": "~/.local/bin/updates-pacman-aurhelper",
+        "interval": 500,
+        "format": "󰏔 {}",
+        "tooltip": false,
+    },
+}

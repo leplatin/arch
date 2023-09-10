@@ -1,0 +1,12 @@
+#! /bin/sh
+
+selected=$(printf "    Lock\n    Suspend\n    Log Out\n    Restart\n    Power Off" | rofi -dmenu -i -theme-str '@import "power.rasi"')
+
+case "$selected" in
+	"  Lock") exec sh -c '(sleep 0.5s; swaylock --grace 0)' & disown ;;
+	"  Suspend") systemctl suspend ;;
+	"  Log Out") bspc quit ;;
+	"  Restart") reboot ;;
+  "  Power Off") poweroff ;;
+	*) exit 1 ;;
+esac

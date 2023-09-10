@@ -1,0 +1,6 @@
+add ~/Music
+del
+colorscheme catppuccin
+help
+ play
+ add ~/Music

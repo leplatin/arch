@@ -1,0 +1,19 @@
+2023-09-03 19:02:34.128 [info] Deleted uninstalled extension from disk catppuccin.catppuccin-vsc /home/mnkey/.vscode-oss/extensions/catppuccin.catppuccin-vsc-2.7.0-universal
+2023-09-03 19:02:34.129 [info] Deleted uninstalled extension from disk mvllow.rose-pine /home/mnkey/.vscode-oss/extensions/mvllow.rose-pine-2.8.1-universal
+2023-09-03 19:02:34.343 [info] Deleted uninstalled extension from disk pkief.material-icon-theme /home/mnkey/.vscode-oss/extensions/pkief.material-icon-theme-4.28.0-universal
+2023-09-03 19:02:34.498 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/mnkey/.vscode-oss/extensions/mvllow.rose-pine-2.8.1-universal.9e1fcf8.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/mnkey/.vscode-oss/extensions/mvllow.rose-pine-2.8.1-universal.9e1fcf8.vsctmp'
+    at s.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:34:35902)
+    at i (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:34:36042)
+    at t.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:39:46720)
+    at t.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:39:37612)
+    at async E.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:39:20649)
+    at async V.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:92:12690)
+2023-09-03 19:02:34.879 [info] Deleted uninstalled extension from disk ms-python.python /home/mnkey/.vscode-oss/extensions/ms-python.python-2023.12.0-universal
+2023-09-03 19:02:38.059 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2023-09-03 19:02:39.627 [info] Installing extension: catppuccin.catppuccin-vsc
+2023-09-03 19:02:40.602 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc
+2023-09-03 19:02:40.694 [info] Extracted extension to file:///home/mnkey/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.0.1-universal: catppuccin.catppuccin-vsc
+2023-09-03 19:02:40.740 [info] Renamed to /home/mnkey/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.0.1-universal
+2023-09-03 19:02:40.745 [info] Extracting extension completed. catppuccin.catppuccin-vsc
+2023-09-03 19:02:40.814 [info] Extension installed successfully: catppuccin.catppuccin-vsc
+2023-09-03 19:02:40.823 [info] Marked extension as uninstalled catppuccin.catppuccin-vsc-2.9.0-universal

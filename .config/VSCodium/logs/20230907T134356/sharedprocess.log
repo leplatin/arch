@@ -1,0 +1,9 @@
+2023-09-07 13:43:57.890 [info] Deleted uninstalled extension from disk catppuccin.catppuccin-vsc /home/mnkey/.vscode-oss/extensions/catppuccin.catppuccin-vsc-2.9.0-universal
+2023-09-07 13:44:02.479 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2023-09-07 13:44:04.214 [info] Installing extension: catppuccin.catppuccin-vsc
+2023-09-07 13:44:05.049 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc
+2023-09-07 13:44:05.141 [info] Extracted extension to file:///home/mnkey/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.2.1-universal: catppuccin.catppuccin-vsc
+2023-09-07 13:44:05.175 [info] Renamed to /home/mnkey/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.2.1-universal
+2023-09-07 13:44:05.185 [info] Extracting extension completed. catppuccin.catppuccin-vsc
+2023-09-07 13:44:05.249 [info] Extension installed successfully: catppuccin.catppuccin-vsc
+2023-09-07 13:44:05.263 [info] Marked extension as uninstalled catppuccin.catppuccin-vsc-3.0.1-universal
